@@ -1,0 +1,272 @@
+body {
+    min-width: 1090px;
+    font-family: "Microsoft YaHei";
+    ul,
+    li {
+        list-style: none;
+    }
+}
+
+.ruffian-Div {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    .pic {
+        position: relative;
+        left: -25%;
+        top: 0;
+    }
+}
+
+.topNav {
+    position: relative;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ededee;
+    font-family: 'Mircosoft YaHei';
+    font-size: 10px;
+    color: #666;
+    .sep {
+        color: #ccc;
+    }
+    .topNavWrap {
+        position: relative;
+        height: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+        width: 1090px;
+        a {
+            color: #666;
+            text-decoration: none;
+        }
+        a:hover {
+            color: indianred;
+        }
+        .topNavLef {
+            float: left;
+            .login {
+                margin-left: 16px;
+            }
+            .sep {
+                padding: 0 10px;
+            }
+        }
+        .topNavMid {
+            float: left;
+            padding-left: 30px;
+        }
+        .topNavRig {
+            float: right;
+            position: relative;
+            right: -3px;
+            li {
+                float: left;
+            }
+            .checkIn {
+                padding: 0 14px 0 8px;
+            }
+            .individual {
+                padding: 0 8px 0 14px;
+            }
+        }
+    }
+}
+
+.docHead {
+    position: relative;
+    height: 100px;
+    background: #fff;
+    .docHeadWrap {
+        position: relative;
+        width: 1090px;
+        height: 100px;
+        margin: 0 auto;
+        .logokaola {
+            position: absolute;
+            left: 0;
+            top: 29px;
+            width: 215px;
+            height: 42px;
+            line-height: 45px;
+            cursor: pointer;
+            background: url(../img/index_top/logo.png) no-repeat;
+        }
+        .searchBox {
+            position: absolute;
+            top: 24px;
+            left: 343px;
+            .topSearchBox {
+                width: 510px;
+                height: 36px;
+                padding-left: 1px;
+                background-color: #333;
+                border-radius: 0 3px 3px 0;
+                .wrap {
+                    float: left;
+                    margin: 2px 1px;
+                    padding: 4px 5px 4px 30px;
+                    background-color: #fff;
+                    white-space: normal;
+                    word-wrap: break-word;
+                    .topSearchInput {
+                        width: 423px;
+                        height: 24px;
+                        line-height: 24px;
+                        border: 0;
+                        font-size: 13px;
+                    }
+                }
+                .topSearchBtn {
+                    position: absolute;
+                    top: 2px;
+                    left: 460px;
+                    height: 36px;
+                    width: 50px;
+                    font-size: 19px;
+                    line-height: 36px;
+                    color: #fff;
+                    text-align: center;
+                    cursor: pointer;
+                    border-radius: 0 3px 3px 0;
+                    background-position: -490px -657px;
+                }
+                .topSearchLogo {
+                    position: absolute;
+                    left: 10px;
+                    top: 9px;
+                    width: 14px;
+                    height: 14px;
+                    background-position: -466px -667px;
+                }
+            }
+        }
+        .shopCart {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 24px;
+            width: 108px;
+            height: 34px;
+            background-color: #fff;
+            line-height: 34px;
+            font-size: 13px;
+            text-align: center;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+            .wrap {
+                display: inline-block;
+                padding-left: 6px;
+                background: none;
+                vertical-align: middle;
+                color: #323232;
+                font-family: "Microsoft YaHei";
+                font-size: 14px;
+                position: relative;
+                top: -2px;
+            }
+        }
+    }
+}
+
+.nav {
+    height: 40px;
+    border-bottom: 2px solid #151515;
+    background: #fff;
+    .navTab {
+        position: relative;
+        width: 1090px;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 40px;
+        .list {
+            float: left;
+            height: 40px;
+            width: 160px;
+            background: #151515;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            padding-left: 0;
+            overflow: visible;
+            .listHead {
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                width: 160px;
+                text-align: left;
+                border-bottom: 2px solid #151515;
+                i {
+                    display: inline-block;
+                    margin: 0 15px 0 27px;
+                    width: 15px;
+                    height: 20px;
+                    overflow: hidden;
+                    position: relative;
+                    top: 7px;
+                }
+                span {
+                    font-family: "Microsoft YaHei";
+                }
+            }
+            .menu {
+                border-bottom: 1px solid #000;
+                margin-top: -1px;
+                li {
+                    background: rgba(15, 15, 15, .82);
+                    padding-left: 10px;
+                    width: 160px;
+                    height: 40px;
+                    cursor: pointer;
+                    text-align: left;
+                    .icon {
+                        width: 46px;
+                        height: 20px;
+                        vertical-align: middle;
+                        padding: 0 12px 0 14px;
+                    }
+                    .t {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 70px;
+                        height: 30px;
+                        line-height: 30px;
+                        white-space: nowrap;
+                    }
+                    .arr {
+                        display: inline-block;
+                        vertical-align: middle;
+                        color: #929496;
+                        font-size: 19px;
+                        width: 16px;
+                    }
+                    .liLogo {
+                        position: relative;
+                        top: 2px;
+                    }
+                }
+            }
+        }
+        .funcTab {
+            position: relative;
+            height: 40px;
+            float: left;
+            padding-left: 20px;
+            li {
+                float: left;
+                height: 40px;
+                overflow: hidden;
+                padding: 0 20px;
+                a {
+                    display: block;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: #323232;
+                }
+                a:hover {
+                    color: deeppink;
+                }
+            }
+        }
+    }
+}
