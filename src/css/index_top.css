@@ -207,8 +207,10 @@ body li {
   font-family: "Microsoft YaHei";
 }
 .nav .navTab .list .menu {
+  position: relative;
   border-bottom: 1px solid #000;
   margin-top: -1px;
+  z-index: 1;
 }
 .nav .navTab .list .menu li {
   background: rgba(15, 15, 15, 0.82);
@@ -265,4 +267,16 @@ body li {
 }
 .nav .navTab .funcTab li a:hover {
   color: deeppink;
+}
+.nav .res {
+  display: inline-block;
+  position: absolute;
+  right: 50%;
+  margin: -70px -545px 0 0;
+  width: 168px;
+  height: 68px;
+}
+.nav .res img {
+  width: 168px;
+  height: 68px;
 }

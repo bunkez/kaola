@@ -6,7 +6,6 @@ var gulp = require('gulp'); //本地安装为了在这里引入gulp
 var sass = require('gulp-sass');
 var sass = require('gulp-less');
 
-
 // 2)编写任务
 gulp.task('buildSass', function() {
     console.log('编译完成');
@@ -19,6 +18,7 @@ gulp.task('buildSass', function() {
 
     // 输出文件
     .pipe(gulp.dest('./src/css'));
+
 });
 
 

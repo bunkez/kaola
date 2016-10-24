@@ -1,0 +1,85 @@
+.bodyWrap {
+  position: relative;
+  padding-bottom: 80px;
+  background: #f6f6f6;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.bodyWrap .carousel {
+  position: relative;
+  height: 400px;
+  background: #f3f3f3;
+  z-index: 0;
+}
+.bodyWrap .carousel .imgBox {
+  position: relative;
+  top: -10px;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.bodyWrap .carousel .imgBox ul {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 400px;
+  margin-left: -960px;
+}
+.bodyWrap .carousel .imgBox ul li {
+  position: absolute;
+}
+.bodyWrap .carousel .imgBox ul li img {
+  width: 1920px;
+  height: 400px;
+}
+.bodyWrap .sellPoint {
+  margin-bottom: 20px;
+  height: 44px;
+  border-bottom: 1px solid #EAEAEA;
+  background-color: #fff;
+}
+.bodyWrap .sellPoint .contentWrap {
+  margin: 0 auto;
+  width: 1090px;
+}
+.bodyWrap .sellPoint .contentWrap .sellPoints {
+  float: left;
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
+  color: #999;
+}
+.bodyWrap .sellPoint .contentWrap .sellPoints .item {
+  float: left;
+  margin-right: 40px;
+  color: #999;
+  text-decoration: none;
+}
+.bodyWrap .sellPoint .contentWrap .sellPoints .item span {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  height: 44px;
+  line-height: 44px;
+}
+.bodyWrap .hotPoint {
+  margin-top: -20px;
+}
+.bodyWrap .hotPoint .hotBox {
+  margin: 0 auto;
+  width: 1090px;
+}
+.bodyWrap .hotPoint .hotBox .hotBoxWrap {
+  margin-bottom: 10px;
+  width: 1090px;
+}
+.bodyWrap .hotPoint .hotBox .hotBoxWrap .hotFocus {
+  margin-right: -10px;
+}
+.bodyWrap .hotPoint .hotBox .hotBoxWrap .hotFocus li {
+  float: left;
+  margin-right: 10px;
+}
+.bodyWrap .hotPoint .hotBox .hotBoxWrap .hotFocus li .hotPic {
+  width: 265px;
+}

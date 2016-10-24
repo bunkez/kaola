@@ -208,8 +208,10 @@ body {
                 }
             }
             .menu {
+                position: relative;
                 border-bottom: 1px solid #000;
                 margin-top: -1px;
+                z-index: 1;
                 li {
                     background: rgba(15, 15, 15, .82);
                     padding-left: 10px;
@@ -267,6 +269,18 @@ body {
                     color: deeppink;
                 }
             }
+        }
+    }
+    .res {
+        display: inline-block;
+        position: absolute;
+        right: 50%;
+        margin: -70px -545px 0 0;
+        width: 168px;
+        height: 68px;
+        img {
+            width: 168px;
+            height: 68px;
         }
     }
 }

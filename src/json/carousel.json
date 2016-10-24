@@ -1,0 +1,31 @@
+[{
+        "id": "C001",
+        "imgurl": "src/img/index_carousel/c1.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C002",
+        "imgurl": "src/img/index_carousel/c2.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C003",
+        "imgurl": "src/img/index_carousel/c3.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C004",
+        "imgurl": "src/img/index_carousel/c4.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C005",
+        "imgurl": "src/img/index_carousel/c5.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C006",
+        "imgurl": "src/img/index_carousel/c6.jpg",
+        "url": "javascript:void(0);"
+    }
+]
