@@ -32,54 +32,166 @@
   width: 1920px;
   height: 400px;
 }
-.bodyWrap .sellPoint {
+.bodyWrap .carousel .imgBox .pageBox {
+  position: absolute;
+  width: 920px;
+  margin-left: -375px;
+  left: 50%;
+  bottom: 16px;
+}
+.bodyWrap .carousel .imgBox .pageBox td {
+  vertical-align: middle;
+  text-align: center;
+}
+.bodyWrap .carousel .imgBox .pageBox td span {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  vertical-align: baseline;
+  padding-left: 14px;
+}
+.bodyWrap .carousel .imgBox .pageBox td span span {
+  display: inline-block;
+  vertical-align: baseline;
+  height: 28px;
+  line-height: 28px;
+  background-position: right -28px;
+  padding-right: 14px;
+}
+.bodyWrap .carousel .imgBox .pageBox td span span a {
+  float: left;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 4px 2px 0;
+  vertical-align: middle;
+  line-height: 0px;
+  font-size: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bodyWrap .carousel .imgBox .pageBox td span span a .carouselIconfont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+.bodyWrap .carousel .imgBox .pageBox td span span a .active {
+  color: #ff8080;
+}
+.bodyWrap .carousel .imgBox .pageBox td span span a .num {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+.bodyWrap .carousel .imgBox .control {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+}
+.bodyWrap .carousel .imgBox .control div {
+  position: relative;
+  zoom: 1;
+  width: 1090px;
+  margin: 0 auto;
+}
+.bodyWrap .carousel .imgBox .control div a {
+  position: absolute;
+  top: 0;
+  margin: -34px 0 0;
+  width: 34px;
+  height: 68px;
+  background: url(../img/index_carousel/icon1.png) no-repeat;
+}
+.bodyWrap .carousel .imgBox .control div .prev {
+  left: 169px;
+  background-position: -625px -68px;
+}
+.bodyWrap .carousel .imgBox .control div .next {
+  right: 0;
+  background-position: -670px -67px;
+}
+.sellPoint {
   margin-bottom: 20px;
   height: 44px;
   border-bottom: 1px solid #EAEAEA;
   background-color: #fff;
 }
-.bodyWrap .sellPoint .contentWrap {
+.sellPoint .contentWrap {
   margin: 0 auto;
   width: 1090px;
 }
-.bodyWrap .sellPoint .contentWrap .sellPoints {
+.sellPoint .contentWrap .sellPoints {
   float: left;
   height: 44px;
   line-height: 44px;
   font-size: 12px;
   color: #999;
 }
-.bodyWrap .sellPoint .contentWrap .sellPoints .item {
+.sellPoint .contentWrap .sellPoints .item {
   float: left;
   margin-right: 40px;
   color: #999;
   text-decoration: none;
 }
-.bodyWrap .sellPoint .contentWrap .sellPoints .item span {
+.sellPoint .contentWrap .sellPoints .item span {
   display: inline-block;
   position: relative;
   top: -3px;
   height: 44px;
   line-height: 44px;
 }
-.bodyWrap .hotPoint {
-  margin-top: -20px;
+.sellPoint .contentWrap .download {
+  float: right;
+  color: #E01F35;
+  line-height: 44px;
 }
-.bodyWrap .hotPoint .hotBox {
+.sellPoint .contentWrap .download .phone {
+  margin-right: 5px;
+  font-size: 15px;
+  vertical-align: -2px;
+}
+.sellPoint .contentWrap .download a {
+  color: #E01F35;
+}
+.hotPoint {
+  padding-top: 20px;
+  margin-top: -20px;
+  height: 240px;
+}
+.hotPoint .hotBox {
   margin: 0 auto;
   width: 1090px;
+  height: 220px;
 }
-.bodyWrap .hotPoint .hotBox .hotBoxWrap {
+.hotPoint .hotBox .hotBoxWrap {
   margin-bottom: 10px;
   width: 1090px;
+  height: 220px;
 }
-.bodyWrap .hotPoint .hotBox .hotBoxWrap .hotFocus {
+.hotPoint .hotBox .hotBoxWrap .hotFocus {
+  height: 220px;
   margin-right: -10px;
 }
-.bodyWrap .hotPoint .hotBox .hotBoxWrap .hotFocus li {
+.hotPoint .hotBox .hotBoxWrap .hotFocus li {
   float: left;
   margin-right: 10px;
 }
-.bodyWrap .hotPoint .hotBox .hotBoxWrap .hotFocus li .hotPic {
+.hotPoint .hotBox .hotBoxWrap .hotFocus li .hotPic {
   width: 265px;
+}
+.hotPoint .hotBox .hotBoxWrap .hotFocus li .hotPic img {
+  width: 100%;
+  height: 100%;
 }

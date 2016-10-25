@@ -1,0 +1,21 @@
+[{
+        "id": "C001",
+        "imgurl": "src/img/index_sellpoint/s1.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C002",
+        "imgurl": "src/img/index_sellpoint/s2.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C003",
+        "imgurl": "src/img/index_sellpoint/s3.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "C004",
+        "imgurl": "src/img/index_sellpoint/s4.jpg",
+        "url": "javascript:void(0);"
+    }
+]
