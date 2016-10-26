@@ -1,0 +1,41 @@
+[{
+        "id": "G001",
+        "title": "WELEDA 维蕾德 有机燕麦滋养修复护发素 150毫升",
+        "category": "欧洲百年有机护肤品牌",
+        "imgurl": "src/img/index_countdown/c1.jpg",
+        "url": "javascript:void(0);",
+        "price": 148,
+        "off": 39.9,
+        "residual": 77
+    },
+    {
+        "id": "G002",
+        "title": "充满异国风情的迷人风味SANRITSU 三立制果 费加洛综合饼干点心礼盒",
+        "category": "充满异国风情的迷人风味",
+        "imgurl": "src/img/index_countdown/c2.jpg",
+        "url": "javascript:void(0);",
+        "price": 186,
+        "off": 19,
+        "residual": 361
+    },
+    {
+        "id": "G003",
+        "title": "Zolitt 卓理 婴儿车置物袋 童车储物挂袋",
+        "category": "不含甲醛魔术贴防滑",
+        "imgurl": "src/img/index_countdown/c3.jpg",
+        "url": "javascript:void(0);",
+        "price": 69,
+        "off": 17,
+        "residual": 463
+    },
+    {
+        "id": "G004",
+        "title": "emart 易买得 杏仁混合爆米花 70克/包",
+        "category": "硕大饱满 混搭风味",
+        "imgurl": "src/img/index_countdown/c4.jpg",
+        "url": "javascript:void(0);",
+        "price": 21.9,
+        "off": 1,
+        "residual": 485
+    }
+]

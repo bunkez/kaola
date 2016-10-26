@@ -13,7 +13,6 @@
 }
 .bodyWrap .carousel .imgBox {
   position: relative;
-  top: -10px;
   width: 100%;
   height: 400px;
   overflow: hidden;
@@ -86,7 +85,7 @@
 .bodyWrap .carousel .imgBox .pageBox td span span a .num {
   position: absolute;
   top: 0;
-  left: -8px;
+  left: -14px;
   width: 20px;
   height: 20px;
   line-height: 20px;
@@ -152,6 +151,9 @@
   height: 44px;
   line-height: 44px;
 }
+.sellPoint .contentWrap .sellPoints a:hover {
+  color: red;
+}
 .sellPoint .contentWrap .download {
   float: right;
   color: #E01F35;
@@ -168,7 +170,7 @@
 .hotPoint {
   padding-top: 20px;
   margin-top: -20px;
-  height: 240px;
+  height: 220px;
 }
 .hotPoint .hotBox {
   margin: 0 auto;

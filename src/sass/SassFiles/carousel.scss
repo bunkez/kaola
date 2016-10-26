@@ -11,7 +11,6 @@
         z-index: 0;
         .imgBox {
             position: relative;
-            top: -10px;
             width: 100%;
             height: 400px;
             overflow: hidden;
@@ -78,7 +77,7 @@
                                 .num {
                                     position: absolute;
                                     top: 0;
-                                    left: -8px;
+                                    left: -14px;
                                     width: 20px;
                                     height: 20px;
                                     line-height: 20px;
@@ -150,6 +149,9 @@
                     line-height: 44px;
                 }
             }
+            a:hover {
+                color: red;
+            }
         }
         .download {
             float: right;
@@ -170,7 +172,7 @@
 .hotPoint {
     padding-top: 20px;
     margin-top: -20px;
-    height: 240px;
+    height: 220px;
     .hotBox {
         margin: 0 auto;
         width: 1090px;

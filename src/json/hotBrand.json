@@ -1,0 +1,25 @@
+[{
+        "id": "G001",
+        "title": "MICHAEL KORS 迈克高仕",
+        "category": "比美国代购更便宜的MK",
+        "imgurl": "src/img/index_hotbrand/h1.jpg",
+        "url": "javascript:void(0);",
+        "logo": "src/img/index_hotbrand/hh1.jpg"
+    },
+    {
+        "id": "G002",
+        "title": "ALBION 奥尔滨",
+        "category": "日本四大护肤品牌之一",
+        "imgurl": "src/img/index_hotbrand/h2.jpg",
+        "url": "javascript:void(0);",
+        "logo": "src/img/index_hotbrand/hh2.jpg"
+    },
+    {
+        "id": "G003",
+        "title": "Laderach 莱德瑞",
+        "category": "迪拜帆船酒店指定品牌",
+        "imgurl": "src/img/index_hotbrand/h3.jpg",
+        "url": "javascript:void(0);",
+        "logo": "src/img/index_hotbrand/hh3.jpg"
+    }
+]

@@ -1,0 +1,41 @@
+[{
+        "id": "G001",
+        "title": "Gregory 格里高利 女式 33L 户外登山徒步背包 双肩包 J33",
+        "category": "户外登山徒步背包",
+        "imgurl": "src/img/index_dailynew/n1.jpg",
+        "url": "javascript:void(0);",
+        "price": 1599,
+        "off": 7.5,
+        "country": "src/img/index_dailynew/nn1.png"
+    },
+    {
+        "id": "G002",
+        "title": "Nature's Way 绿之华 鱼油软糖110粒/瓶",
+        "category": "澳洲鱼油心脑养护",
+        "imgurl": "src/img/index_dailynew/n2.jpg",
+        "url": "javascript:void(0);",
+        "price": 388,
+        "off": 4.9,
+        "country": "src/img/index_dailynew/nn2.png"
+    },
+    {
+        "id": "G003",
+        "title": "SOPHIE HULME 索菲·休姆 女士卡包",
+        "category": "复古简洁诉说俏皮",
+        "imgurl": "src/img/index_dailynew/n3.jpg",
+        "url": "javascript:void(0);",
+        "price": 3500,
+        "off": 3.8,
+        "country": "src/img/index_dailynew/nn3.png"
+    },
+    {
+        "id": "G004",
+        "title": "Foltene 丰添防脱发（男用）洗护三日装（洗发液10ml*3+护发素10ml*3",
+        "category": "一套使用加倍浓密",
+        "imgurl": "src/img/index_dailynew/n4.jpg",
+        "url": "javascript:void(0);",
+        "price": 89,
+        "off": 4.7,
+        "country": "src/img/index_dailynew/nn4.png"
+    }
+]
