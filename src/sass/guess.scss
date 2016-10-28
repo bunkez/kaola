@@ -1,0 +1,88 @@
+.guessWrap {
+    margin: 15px auto;
+    width: 1090px;
+    height: auto;
+    overflow: hidden;
+    .newRecomTitle {
+        font-size: 22px;
+        padding: 20px 0 5px;
+        font-weight: bold;
+        height: 38px;
+        line-height: 38px;
+        color: #333;
+        b {
+            font-size: 13px;
+            color: #666;
+            font-weight: normal;
+            padding-left: 12px;
+        }
+    }
+    .guessBox {
+        margin-left: 0;
+        border: 1px solid #eaeaea;
+        background: #fff;
+        height: 352px;
+        .guess {
+            margin: 0;
+            border: 0;
+            border-right: 1px solid #eaeaea;
+            width: 271px;
+            height: 350px;
+            float: left;
+            .itemImg {
+                display: block;
+                img {
+                    width: 271px;
+                    height: 271px;
+                }
+            }
+            .itemTitle {
+                margin-bottom: 9px;
+                padding: 0 15px;
+                height: 40px;
+                overflow: hidden;
+                a {
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: #333;
+                    font-weight: normal;
+                    word-break: break-all;
+                    b {
+                        color: #E31436;
+                    }
+                }
+            }
+            .itemInfo {
+                padding: 0 15px;
+                .price {
+                    float: left;
+                    font-size: 20px;
+                    line-height: 14px;
+                    color: #E31436;
+                    font-weight: bold;
+                    .symbol {
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+                    .marprice {
+                        padding-left: 5px;
+                        color: #999;
+                        font-size: 12px;
+                        font-weight: normal;
+                    }
+                }
+                .comment {
+                    float: right;
+                    display: block;
+                    height: 24px;
+                    line-height: 20px;
+                    color: #999;
+                    font-size: 12px;
+                }
+            }
+        }
+        .noBorder {
+            border: 0;
+        }
+    }
+}

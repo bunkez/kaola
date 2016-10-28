@@ -1,10 +1,11 @@
 .section .productfloor {
   margin: 0 auto;
   width: 1090px;
-  height: 608px;
+  height: 620px;
 }
 .section .productfloor .title {
   font-size: 14px;
+  height: 34px;
   color: #999;
   position: relative;
   line-height: 32px;
@@ -31,24 +32,27 @@
   background: #fff;
   border-top: 2px solid #333;
   border-left: 0;
+  height: 443px;
 }
-.section .productfloor .cont .coutLef {
+.section .productfloor .cont .contLef {
   float: left;
   position: relative;
+  height: 443px;
 }
-.section .productfloor .cont .coutLef img {
+.section .productfloor .cont .contLef img {
   background: #fff;
+  height: 100%;
 }
-.section .productfloor .cont .coutLef .secondlist {
+.section .productfloor .cont .contLef .secondlist {
   position: absolute;
   left: 26px;
   top: 24px;
 }
-.section .productfloor .cont .coutLef .secondlist li {
+.section .productfloor .cont .contLef .secondlist li {
   float: left;
   margin: 0 10px 10px 0;
 }
-.section .productfloor .cont .coutLef .secondlist li a {
+.section .productfloor .cont .contLef .secondlist li a {
   display: block;
   width: 58px;
   height: 36px;
@@ -59,7 +63,7 @@
   border-radius: 50%;
   background: #fff;
 }
-.section .productfloor .cont .coutLef .secondlist li a .txt {
+.section .productfloor .cont .contLef .secondlist li a .txt {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -68,12 +72,13 @@
   overflow: hidden;
   line-height: 18px;
 }
-.section .productfloor .cont .coutMid {
+.section .productfloor .cont .contMid {
   width: 600px;
+  height: 443px;
   float: left;
   position: relative;
 }
-.section .productfloor .cont .coutMid ul li {
+.section .productfloor .cont .contMid ul li {
   float: left;
   text-align: center;
   border: 1px solid #eaeaea;
@@ -81,12 +86,12 @@
   width: 299px;
   height: 220px;
 }
-.section .productfloor .cont .coutMid ul li a {
+.section .productfloor .cont .contMid ul li a {
   display: block;
   padding: 20px 0 0;
   height: 200px;
 }
-.section .productfloor .cont .coutMid ul li a h3 {
+.section .productfloor .cont .contMid ul li a h3 {
   font-size: 16px;
   font-weight: bold;
   line-height: 22px;
@@ -94,93 +99,101 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  color: black;
 }
-.section .productfloor .cont .coutMid ul li a p {
+.section .productfloor .cont .contMid ul li a p {
   font-size: 14px;
   line-height: 20px;
   margin: 0 10px 14px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  color: grey;
 }
-.section .productfloor .cont .coutRig {
+.section .productfloor .cont .contMid .below {
+  height: 223px;
+  margin-top: -1px;
+  border-bottom: 0;
+}
+.section .productfloor .cont .contRig {
   padding: 0 0 0 20px;
   width: 200px;
   float: left;
   position: relative;
 }
-.section .productfloor .cont .coutRig h3 {
+.section .productfloor .cont .contRig .titl {
   font-size: 16px;
   line-height: 40px;
   padding: 10px 0 0;
   color: #333;
   font-weight: bold;
 }
-.section .productfloor .cont .coutRig .prolist {
+.section .productfloor .cont .contRig .prolist {
   position: relative;
   width: 100%;
   height: 356px;
   overflow: hidden;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup {
+.section .productfloor .cont .contRig .prolist .itemgroup {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale {
   border-bottom: 1px dotted #eaeaea;
   padding: 0 0 10px;
   margin: 0 0 10px;
+  height: 75px;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale .pic {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale .pic {
   position: relative;
   zoom: 1;
   float: left;
   margin: 0 10px 0 0;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale h3 {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale .tit {
   line-height: 18px;
   height: 36px;
   overflow: hidden;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale h3 a {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale .tit a {
   color: #666;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale .curprice {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale .curprice {
   margin: 6px 0 0;
   font-size: 12px;
   color: #E31436;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale .curprice strong {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale .curprice strong {
   font-size: 14px;
   font-weight: bold;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale .curprice strong .del {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale .curprice .del {
   color: #999;
   margin: 0 0 0 5px;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale-last {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale-last {
   border: 0;
   padding: 0 0 10px;
   margin: 0 0 10px;
 }
-.section .productfloor .cont .coutRig .prolist .itemgroup .itemsale-last .pic {
+.section .productfloor .cont .contRig .prolist .itemgroup .itemsale-last .pic {
   position: relative;
   float: left;
   margin: 0 10px 0 0;
 }
-.section .productfloor .cont .coutRig table {
+.section .productfloor .cont .contRig table {
   position: relative;
   width: 100%;
   margin: 12px 0 0;
   border-collapse: collapse;
   border-spacing: 0;
 }
-.section .productfloor .cont .coutRig table .pageBox {
+.section .productfloor .cont .contRig table .pageBox {
   text-align: center;
 }
-.section .productfloor .cont .coutRig table .pageBox .idxicon {
+.section .productfloor .cont .contRig table .pageBox .idxicon {
   display: inline-block;
   margin: 0 2px;
   width: 6px;
@@ -191,15 +204,17 @@
   font-size: 0px;
   text-decoration: none;
   cursor: pointer;
+  background: url(../img/index_carousel/icon1.png);
   background-position: -469px -579px;
 }
-.section .productfloor .cont .coutRig table .pageBox .active {
+.section .productfloor .cont .contRig table .pageBox .active {
   background-position: -481px -579px;
 }
 .section .productfloor .logolist {
   margin: 10px 0 0;
   border: 1px solid #eaeaea;
   line-height: 108px;
+  height: 111px;
   background: #fff;
 }
 .section .productfloor .logolist span {

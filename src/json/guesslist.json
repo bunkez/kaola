@@ -1,0 +1,37 @@
+[{
+    "id": "G001",
+    "title": "Aptamil 德国爱他美 婴儿奶粉 Pre段 800克/罐 3罐装 0-3个月",
+    "imgurl": "src/img/index_guess/g1.jpg",
+    "url": "javascript:void(0);",
+    "price": 406,
+    "off": 406,
+    "module": "3件装",
+    "commentCount": 7641
+}, {
+    "id": "G002",
+    "title": "Nutrilon 荷兰牛栏 婴儿奶粉4段 800克/罐 3罐装 12个月以上",
+    "imgurl": "src/img/index_guess/g2.jpg",
+    "url": "javascript:void(0);",
+    "price": 507,
+    "off": 384,
+    "module": "3件装",
+    "commentCount": 12986
+}, {
+    "id": "G003",
+    "title": "MEDIHEAL 美迪恵尔 N.M.F针剂水库保湿面膜 10片/盒",
+    "imgurl": "src/img/index_guess/g3.jpg",
+    "url": "javascript:void(0);",
+    "price": 169,
+    "off": 89,
+    "module": "",
+    "commentCount": 96106
+}, {
+    "id": "G004",
+    "title": "Devondale 德运 澳洲原产 高钙全脂成人牛奶粉 1000克/袋 2袋",
+    "imgurl": "src/img/index_guess/g2.jpg",
+    "url": "javascript:void(0);",
+    "price": 198,
+    "off": 109,
+    "module": "2件装",
+    "commentCount": 43554
+}]

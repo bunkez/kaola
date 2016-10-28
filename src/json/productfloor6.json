@@ -1,0 +1,165 @@
+[{
+        "id": "G001",
+        "title": "秋冬护肤必备清单",
+        "category": "科颜氏高保湿面霜低至219元",
+        "imgurl": "src/img/index_section/pf_2/p2.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G002",
+        "title": "人气面膜品牌大赏",
+        "category": "佑天兰5盒装低至199元",
+        "imgurl": "src/img/index_section/pf_2/p3.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G003",
+        "title": "超值防晒大清仓",
+        "category": "水晶喷雾防晒99元任选两件",
+        "imgurl": "src/img/index_section/pf_2/p4.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G004",
+        "title": "解救秋冬问题肌肤",
+        "category": "雅漾大喷两瓶低至158元",
+        "imgurl": "src/img/index_section/pf_2/p5.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G005",
+        "title": "【11.11提前购】【官方直采】 贝拉米 有机奶粉1段 900克/罐 3罐装",
+        "imgurl": "src/img/index_section/pf_0/p1.jpg",
+        "url": "javascript:void(0);",
+        "price": 387,
+        "off": 387
+    },
+    {
+        "id": "G006",
+        "title": "【官方直采】Merries 花王妙而舒 NB 90片/包 4包装 纸尿裤/尿不湿 ",
+        "imgurl": "src/img/index_section/pf_0/p2.jpg",
+        "url": "javascript:void(0);",
+        "price": 506,
+        "off": 316
+    },
+    {
+        "id": "G007",
+        "title": "ledibaby 乐蒂宝贝 提篮式安全座椅婴 儿提篮摇篮睡篮 美国队长 3C",
+        "imgurl": "src/img/index_section/pf_0/p3.jpg",
+        "url": "javascript:void(0);",
+        "price": 908,
+        "off": 387
+    },
+    {
+        "id": "G008",
+        "title": "akasugu 新生 POSTAR 儿童星星立体徽章雨鞋 雨季必备 黄色",
+        "imgurl": "src/img/index_section/pf_0/p4.jpg",
+        "url": "javascript:void(0);",
+        "price": 225,
+        "off": 165
+    },
+    {
+        "id": "G009",
+        "title": "NORDIC NATURALS 挪威小鱼 婴幼儿鳕鱼肝油滴剂 60毫升/瓶",
+        "imgurl": "src/img/index_section/pf_0/p5.jpg",
+        "url": "javascript:void(0);",
+        "price": 69,
+        "off": 45
+    },
+    {
+        "id": "G010",
+        "title": "MZ 美致 雪弗兰大黄蜂合金车模声光回力模型1:32",
+        "imgurl": "src/img/index_section/pf_0/p6.jpg",
+        "url": "javascript:void(0);",
+        "price": 78,
+        "off": 42
+    },
+    {
+        "id": "G011",
+        "title": "BIO ISLAND 佰澳朗德 孕妇可用婴幼儿DHA海藻油 60粒/瓶 2瓶",
+        "imgurl": "src/img/index_section/pf_0/p7.jpg",
+        "url": "javascript:void(0);",
+        "price": 435,
+        "off": 208
+    },
+    {
+        "id": "G012",
+        "title": "the little sugar milk 男童撞色poloT恤短裤套装",
+        "imgurl": "src/img/index_section/pf_0/p8.jpg",
+        "url": "javascript:void(0);",
+        "price": 139,
+        "off": 109
+    },
+    {
+        "id": "G013",
+        "title": "B&B 保宁 儿童抗菌洗衣皂 甘菊香 200克/块 3块装",
+        "imgurl": "src/img/index_section/pf_0/p9.jpg",
+        "url": "javascript:void(0);",
+        "price": 69,
+        "off": 45
+    },
+    {
+        "id": "G014",
+        "title": "Augelute 夏款女宝宝无袖吊带短裤发带三件套",
+        "imgurl": "src/img/index_section/pf_0/p10.jpg",
+        "url": "javascript:void(0);",
+        "price": 329,
+        "off": 74
+    },
+    {
+        "id": "G015",
+        "title": "【官方直采】Merries 花王妙而舒 M 64片/包 2包装 纸尿裤/尿不湿",
+        "imgurl": "src/img/index_section/pf_0/p11.jpg",
+        "url": "javascript:void(0);",
+        "price": 359,
+        "off": 168
+    },
+    {
+        "id": "G016",
+        "title": "【官方直采】Merries 花王妙而舒 L 44片/包 3包装 拉拉裤/学步裤",
+        "imgurl": "src/img/index_section/pf_0/p12.jpg",
+        "url": "javascript:void(0);",
+        "price": 999,
+        "off": 267
+    },
+    {
+        "id": "G017",
+        "imgurl": "src/img/index_section/pf_2/p6.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G018",
+        "imgurl": "src/img/index_section/pf_2/p7.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G019",
+        "imgurl": "src/img/index_section/pf_2/p8.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G020",
+        "imgurl": "src/img/index_section/pf_2/p9.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G021",
+        "imgurl": "src/img/index_section/pf_2/p10.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G022",
+        "imgurl": "src/img/index_section/pf_2/p11.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G023",
+        "imgurl": "src/img/index_section/pf_2/p12.jpg",
+        "url": "javascript:void(0);"
+    },
+    {
+        "id": "G024",
+        "imgurl": "src/img/index_section/pf_2/p13.jpg",
+        "url": "javascript:void(0);"
+    }
+]

@@ -1,0 +1,88 @@
+.guessWrap {
+  margin: 15px auto;
+  width: 1090px;
+  height: auto;
+  overflow: hidden;
+}
+.guessWrap .newRecomTitle {
+  font-size: 22px;
+  padding: 20px 0 5px;
+  font-weight: bold;
+  height: 38px;
+  line-height: 38px;
+  color: #333;
+}
+.guessWrap .newRecomTitle b {
+  font-size: 13px;
+  color: #666;
+  font-weight: normal;
+  padding-left: 12px;
+}
+.guessWrap .guessBox {
+  margin-left: 0;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  height: 352px;
+}
+.guessWrap .guessBox .guess {
+  margin: 0;
+  border: 0;
+  border-right: 1px solid #eaeaea;
+  width: 271px;
+  height: 350px;
+  float: left;
+}
+.guessWrap .guessBox .guess .itemImg {
+  display: block;
+}
+.guessWrap .guessBox .guess .itemImg img {
+  width: 271px;
+  height: 271px;
+}
+.guessWrap .guessBox .guess .itemTitle {
+  margin-bottom: 9px;
+  padding: 0 15px;
+  height: 40px;
+  overflow: hidden;
+}
+.guessWrap .guessBox .guess .itemTitle a {
+  line-height: 20px;
+  font-size: 12px;
+  color: #333;
+  font-weight: normal;
+  word-break: break-all;
+}
+.guessWrap .guessBox .guess .itemTitle a b {
+  color: #E31436;
+}
+.guessWrap .guessBox .guess .itemInfo {
+  padding: 0 15px;
+}
+.guessWrap .guessBox .guess .itemInfo .price {
+  float: left;
+  font-size: 20px;
+  line-height: 14px;
+  color: #E31436;
+  font-weight: bold;
+}
+.guessWrap .guessBox .guess .itemInfo .price .symbol {
+  font-size: 14px;
+  font-weight: normal;
+}
+.guessWrap .guessBox .guess .itemInfo .price .marprice {
+  padding-left: 5px;
+  color: #999;
+  font-size: 12px;
+  font-weight: normal;
+}
+.guessWrap .guessBox .guess .itemInfo .comment {
+  float: right;
+  display: block;
+  height: 24px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+.guessWrap .guessBox .noBorder {
+  border: 0;
+}

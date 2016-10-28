@@ -2,9 +2,10 @@
     .productfloor {
         margin: 0 auto;
         width: 1090px;
-        height: 608px;
+        height: 620px;
         .title {
             font-size: 14px;
+            height: 34px;
             color: #999;
             position: relative;
             line-height: 32px;
@@ -31,11 +32,14 @@
             background: #fff;
             border-top: 2px solid #333;
             border-left: 0;
-            .coutLef {
+            height: 443px;
+            .contLef {
                 float: left;
                 position: relative;
+                height: 443px;
                 img {
                     background: #fff;
+                    height: 100%;
                 }
                 .secondlist {
                     position: absolute;
@@ -67,8 +71,9 @@
                     }
                 }
             }
-            .coutMid {
+            .contMid {
                 width: 600px;
+                height: 443px;
                 float: left;
                 position: relative;
                 ul li {
@@ -90,6 +95,7 @@
                             white-space: nowrap;
                             text-overflow: ellipsis;
                             overflow: hidden;
+                            color: black;
                         }
                         p {
                             font-size: 14px;
@@ -98,16 +104,22 @@
                             white-space: nowrap;
                             text-overflow: ellipsis;
                             overflow: hidden;
+                            color: grey;
                         }
                     }
                 }
+                .below {
+                    height: 223px;
+                    margin-top: -1px;
+                    border-bottom: 0;
+                }
             }
-            .coutRig {
+            .contRig {
                 padding: 0 0 0 20px;
                 width: 200px;
                 float: left;
                 position: relative;
-                h3 {
+                .titl {
                     font-size: 16px;
                     line-height: 40px;
                     padding: 10px 0 0;
@@ -128,13 +140,14 @@
                             border-bottom: 1px dotted #eaeaea;
                             padding: 0 0 10px;
                             margin: 0 0 10px;
+                            height: 75px;
                             .pic {
                                 position: relative;
                                 zoom: 1;
                                 float: left;
                                 margin: 0 10px 0 0;
                             }
-                            h3 {
+                            .tit {
                                 line-height: 18px;
                                 height: 36px;
                                 overflow: hidden;
@@ -149,10 +162,10 @@
                                 strong {
                                     font-size: 14px;
                                     font-weight: bold;
-                                    .del {
-                                        color: #999;
-                                        margin: 0 0 0 5px;
-                                    }
+                                }
+                                .del {
+                                    color: #999;
+                                    margin: 0 0 0 5px;
                                 }
                             }
                         }
@@ -187,6 +200,7 @@
                             font-size: 0px;
                             text-decoration: none;
                             cursor: pointer;
+                            background: url(../img/index_carousel/icon1.png);
                             background-position: -469px -579px;
                         }
                         .active {
@@ -200,6 +214,7 @@
             margin: 10px 0 0;
             border: 1px solid #eaeaea;
             line-height: 108px;
+            height: 111px;
             background: #fff;
             span {
                 float: left;
