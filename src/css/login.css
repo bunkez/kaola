@@ -1,0 +1,366 @@
+body {
+  min-width: 1090px;
+  font-family: "Microsoft YaHei";
+}
+body .headAD {
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  width: 100%;
+}
+body .headAD .pic {
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+body .headAD .pic img {
+  position: relative;
+  left: -50%;
+  top: 0;
+}
+body .head {
+  border-bottom: 1px solid #E8E8EA;
+  position: relative;
+  height: 100px;
+  background: #fff;
+}
+body .head .box {
+  width: 1000px;
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
+}
+body .head .box .logokaola {
+  position: absolute;
+  left: 0;
+  top: 29px;
+  width: 215px;
+  height: 42px;
+  line-height: 45px;
+  cursor: pointer;
+  background: url(../img/login/logo.png) no-repeat;
+}
+body .head .box .topimg {
+  position: absolute;
+  top: 0;
+  left: 458px;
+  height: 100px;
+  width: 504px;
+  background: url(../img/login/topimg.jpg) no-repeat;
+}
+body .loginbanner {
+  height: 520px;
+  margin-bottom: 40px;
+  background-color: #F8F8F8;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+body .loginbanner .loginBody {
+  position: relative;
+  width: 1000px;
+  height: 520px;
+  margin: 0 auto;
+}
+body .loginbanner .loginBody .loginWrap {
+  height: 354px;
+  position: absolute;
+  right: 168px;
+  top: 80px;
+  width: 350px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  font-size: 12px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm {
+  float: left;
+}
+body .loginbanner .loginBody .loginWrap .loginForm h2 {
+  padding: 27px 40px 10px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #333;
+}
+body .loginbanner .loginBody .loginWrap .loginForm h2 span {
+  font-family: "Microsoft YaHei";
+  float: left;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe {
+  min-height: 212px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login {
+  width: 270px;
+  height: 187px;
+  padding: 10px 40px 15px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .inputbox {
+  height: 34px;
+  line-height: 30px;
+  position: relative;
+  margin-bottom: 0px;
+  border: 1px solid #c5cddb;
+  background: #fff;
+  font-size: 12px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .inputbox .logo {
+  width: 16px;
+  padding: 0 9px;
+  float: left;
+  text-align: center;
+  height: 100%;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .inputbox .logo .nameimg {
+  background: url(../img/login/logoimg.png);
+  background-position: 1px -30px;
+  width: 16px;
+  height: 18px;
+  margin-top: 8px;
+  display: inline-block;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .inputbox .logo .pwdimg {
+  background: url(../img/login/logoimg.png);
+  background-position: 0px 0px;
+  width: 16px;
+  height: 18px;
+  margin-top: 8px;
+  display: inline-block;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .inputbox .input {
+  height: 30px;
+  margin: 2px 0;
+  border-left: 1px solid #ccc;
+  position: relative;
+  float: left;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .inputbox .input input {
+  position: relative;
+  top: -1px;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  width: 222px;
+  border: none;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .bet {
+  position: relative;
+  width: 320px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .loginbox {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .loginbox .loginbtn {
+  background-color: #E31436;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 44px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  line-height: 44px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .unlogin {
+  font-family: "Microsoft YaHei";
+  position: relative;
+  top: 10px;
+  padding: 2px 0 9px 0;
+  font-size: 0;
+  height: 16px;
+  line-height: 16px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .unlogin .unloginbox {
+  border-right: none;
+  display: block;
+  width: 104px;
+  float: left;
+  margin-right: 8px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .unlogin .unloginbox span {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  border: solid 1px #aaa;
+  color: #999;
+  font-size: 12px;
+  background: url(../img/login/checkbox.png) -9999px -9999px no-repeat;
+  background-position: -330px -92px;
+  line-height: 16px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .unlogin .unloginbox span input {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  opacity: 0;
+  padding-left: 0;
+  color: #333;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 42px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .unlogin .unloginbox label {
+  display: block;
+  float: left;
+  height: 16px;
+  padding-left: 8px;
+  font-size: 12px;
+  color: #999;
+  line-height: 17px;
+  cursor: pointer;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .loginbox .iframe .login .container .unlogin .forgetpwd {
+  float: right;
+  height: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 12px;
+  line-height: 16px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .formList {
+  padding: 0 40px 20px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .formList .regtip {
+  text-align: center;
+  color: #666;
+  font-family: "Microsoft YaHei";
+}
+body .loginbanner .loginBody .loginWrap .loginForm .formList .regtip a {
+  color: #51B8F1;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart {
+  border-top: 1px solid #eaeaea;
+  padding: 10px 0 10px 29px;
+  width: 320px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart li {
+  float: left;
+  width: 43px;
+  line-height: 22px;
+  height: 22px;
+  overflow: hidden;
+  text-align: center;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart li .weixin {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index_carousel/icon1.png) no-repeat;
+  background-position: -760px -275px;
+  display: inline-block;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart li .zhifubao {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index_carousel/icon1.png) no-repeat;
+  background-position: -760px -300px;
+  display: inline-block;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart li .weibo {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index_carousel/icon1.png) no-repeat;
+  background-position: -760px -330px;
+  display: inline-block;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart li .qq {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index_carousel/icon1.png) no-repeat;
+  background-position: -760px -356px;
+  display: inline-block;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart .text {
+  width: 122px;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart .bordera {
+  border-left: 1px solid #eaeaea;
+}
+body .loginbanner .loginBody .loginWrap .loginForm .thirdpart .borderb {
+  border-right: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+}
+body .loginbanner .loginBody .loginWrap .code {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  width: 148px;
+  height: 100%;
+  border: 1px solid #eaeaea;
+  background-image: url(../img/login/2dcode.jpg);
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body .loginbanner .loginBody .loginWrap .code .codearea {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+body .foot {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+body .foot img,
+body .foot input,
+body .foot select {
+  vertical-align: middle;
+  display: inline-block;
+}
+body .foot .aboutNEST {
+  background: #fff;
+  padding: 0;
+  color: #666;
+  position: relative;
+  line-height: 26px;
+  text-align: center;
+}
+body .foot .aboutNEST a {
+  color: #666;
+}
+body .foot .aboutNEST span {
+  margin: 0 20px;
+}
+body .foot .aboutNEST .license {
+  font-size: 12px;
+}
+body .foot .aboutNEST .license img {
+  margin-top: -2px;
+}
+body .foot .aboutNEST .licenses {
+  font-size: 12px;
+  color: #999;
+}
+body .foot .safeimg {
+  text-align: center;
+}
+body .foot .safeimg span {
+  margin: 0;
+}
+body .foot .safeimg span img {
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
+}
+body .foot .safeimg .safelogo img {
+  height: 30px;
+  margin: 5px 0 0 10px;
+}

@@ -1,0 +1,443 @@
+.bodybox .search {
+  position: relative;
+  width: 1104px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14px;
+}
+.bodybox .search .resultwrap {
+  margin-bottom: 6px;
+}
+.bodybox .search .resultwrap .options {
+  width: 1090px;
+  margin: 0 auto;
+}
+.bodybox .search .resultwrap .options .resultinfo {
+  margin: 15px 0 10px;
+  line-height: 22px;
+}
+.bodybox .search .resultwrap .options .resultinfo .total {
+  float: left;
+  line-height: 22px;
+  font-size: 12px;
+}
+.bodybox .search .resultwrap .options .resultinfo .total a {
+  color: #333;
+}
+.bodybox .search .resultwrap .options .resultinfo .total gap {
+  display: inline-block;
+  zoom: 1;
+  width: 10px;
+  margin: 0 5px;
+  font-family: simsun;
+  color: #999;
+  font-weight: bold;
+}
+.bodybox .search .resultwrap .options .resultinfo .total .chosen {
+  display: inline-block;
+  position: relative;
+  float: left;
+  height: 22px;
+  padding: 0 30px 0 10px;
+  border: 1px dotted #D22147;
+  background-color: #fff;
+  color: #6b6b6b;
+  line-height: 22px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.bodybox .search .resultwrap .options .resultinfo .total .chosen i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 4px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  font-family: "iconfont";
+}
+.bodybox .search .resultwrap .options .resultinfo gap {
+  display: inline-block;
+  zoom: 1;
+  width: 10px;
+  margin: 0 5px;
+  font-family: simsun;
+  color: #999;
+  font-weight: bold;
+  float: left;
+}
+.bodybox .search .resultwrap .options .resultinfo a {
+  color: #333;
+}
+.bodybox .search .resultwrap .options .resultinfo .gnum {
+  margin-left: 15px;
+  height: 22px;
+  display: inline-block;
+  line-height: 24px;
+  color: #999;
+  font-size: 12px;
+}
+.bodybox .search .resultwrap .options .resultinfo .gnum i {
+  color: #D22147;
+}
+.bodybox .search .resultwrap .options .opertaion {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #EAEAEA;
+}
+.bodybox .search .resultwrap .options .opertaion .cat {
+  border-bottom: 1px dotted #eaeaea;
+  position: relative;
+  background: #f8f8f8;
+}
+.bodybox .search .resultwrap .options .opertaion .nobottomline {
+  border-bottom: none;
+  position: relative;
+  background: #f8f8f8;
+}
+.bodybox .search .resultwrap .options .opertaion .nobottomline a {
+  float: left;
+  display: inline-block;
+  position: relative;
+  padding-right: 24px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.bodybox .search .resultwrap .options .opertaion .name {
+  float: left;
+  width: 75px;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #666;
+  font-size: 13px;
+  line-height: 14px;
+  background: #f8f8f8;
+}
+.bodybox .search .resultwrap .options .opertaion .hdbrands {
+  margin-left: 90px;
+  padding-right: 42px;
+  padding-top: 15px;
+  background-color: #fff;
+}
+.bodybox .search .resultwrap .options .opertaion .hdbrands .ctag {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.bodybox .search .resultwrap .options .opertaion .hdbrands .ctag .brands {
+  max-height: 112px;
+  overflow-x: hidden;
+  margin-left: 15px;
+  line-height: 14px;
+  overflow: auto;
+  float: left;
+  font-size: 12px;
+}
+.bodybox .search .resultwrap .options .opertaion .hdbrands .ctag .brands a {
+  width: 130px;
+  float: left;
+  display: inline-block;
+  position: relative;
+  padding-right: 24px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.bodybox .search .resultwrap .options .opertaion filter {
+  background-color: #fff;
+}
+.bodybox .search .resultwrap .options .hdorder {
+  height: 36px;
+  background-color: #fff;
+}
+.bodybox .search .resultwrap .options .hdorder .order {
+  position: relative;
+  float: left;
+  width: 175px;
+  height: 36px;
+  line-height: 36px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.bodybox .search .resultwrap .options .hdorder .order .active {
+  position: relative;
+  border: 1px solid #D22147;
+  color: #D22147;
+  text-align: left;
+}
+.bodybox .search .resultwrap .options .hdorder .order .active span {
+  display: inline-block;
+  margin-left: 20px;
+}
+.bodybox .search .resultwrap .options .hdorder .order .active span .arrowDown {
+  display: inline-block;
+  margin-left: 20px;
+  background: url(../img/category/iconbg.png);
+  background-position: 0 -13px;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  width: 8px;
+  height: 10px;
+}
+.bodybox .search .resultwrap .options .hdorder .order dd {
+  float: left;
+  width: 76px;
+  height: 36px;
+  line-height: 36px;
+  margin: -1px;
+  margin-left: 0;
+  font-size: 13px;
+  color: #333;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  text-align: center;
+}
+.bodybox .search .resultwrap .options .hdorder .priceBox {
+  position: relative;
+  float: left;
+  width: 175px;
+  height: 36px;
+  line-height: 36px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.bodybox .search .resultwrap .options .hdorder .priceBox .ipt {
+  width: 48px;
+  line-height: 18px;
+  padding-left: 5px;
+  border: 1px solid #ddd;
+}
+.bodybox .search .resultwrap .options .hdorder .priceBox .btn {
+  display: none;
+  line-height: 16px;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #fff;
+  background: #D22147;
+  border: 0;
+  cursor: pointer;
+}
+.bodybox .search .resultwrap .options .hdorder .checkbox {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  line-height: 36px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.bodybox .search .resultwrap .options .hdorder .checkbox a {
+  color: #333;
+  text-decoration: none;
+}
+.bodybox .search .resultwrap .options .hdorder .checkbox a .box {
+  position: relative;
+  padding-right: 22px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ddd;
+  font-family: "iconfont";
+}
+.bodybox .search .resultwrap .options .hdorder .simplePage {
+  float: right;
+  margin-right: 15px;
+  margin-top: 12px;
+  line-height: 12px;
+}
+.bodybox .search .resultwrap .options .hdorder .simplePage .num {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+.bodybox .search .resultwrap .options .hdorder .simplePage .num i {
+  color: #D22147;
+}
+.bodybox .search .resultwrap .options .hdorder .simplePage .def-left {
+  background: url(../img/category/iconbg.png);
+  background-position: 0px -188px;
+  cursor: default;
+  width: 8px;
+  height: 13px;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+.bodybox .search .resultwrap .options .hdorder .simplePage .def-right {
+  background: url(../img/category/iconbg.png);
+  background-position: 0px -209px;
+  cursor: default;
+  width: 8px;
+  height: 13px;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+.bodybox .search .resultwrap .result {
+  margin-bottom: 6px;
+}
+.bodybox .search .resultwrap .result .goods {
+  position: relative;
+  float: left;
+  width: 262px;
+  height: 387px;
+  margin: 0 7px 14px;
+  _margin: 0 6px 14px;
+  background-color: #fff;
+  font-size: 12px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-bottom: none;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .img {
+  position: relative;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .img a {
+  display: block;
+  color: #333;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .img .favbtn {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  width: 54px;
+  height: 22px;
+  color: #fff;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc {
+  width: 234px;
+  padding: 0 14px 11px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .price {
+  height: 24px;
+  color: #D22147;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .price i {
+  font-size: 12px;
+  font-weight: bold;
+  color: #D22147;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .price .cur {
+  display: inline-block;
+  margin-right: 2px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .price .combinedLabel {
+  position: relative;
+  top: -4px;
+  display: inline-block;
+  padding: 0 4px;
+  border: 1px dotted #D22147;
+  font-size: 12px;
+  color: #D22147;
+  font-weight: bold;
+  line-height: 18px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .price .marketprice {
+  float: right;
+  color: #999;
+  line-height: 24px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .titlewrap .title {
+  height: 20px;
+  width: 234px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 20px;
+  display: block;
+  color: #333;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .titlewrap .title h2 {
+  height: 20px;
+  width: 234px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .saelsinfo {
+  position: relative;
+  width: 234px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 13px;
+  color: #D22147;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .saelsinfo .activity {
+  display: inline-block;
+  height: 16px;
+  padding: 0 6px;
+  margin-right: 4px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  font-size: 12px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .saelsinfo .danpin {
+  background-color: #D22147;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .goodsinfo {
+  margin-top: 10px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .goodsinfo .comments {
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: #333;
+  font-weight: bold;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .goodsinfo .comments .icon {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 12px;
+  height: 14px;
+  background: url(../img/category/iconbg.png);
+  background-position: 0 -230px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .goodsinfo .proPlace {
+  float: right;
+  max-width: 110px;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: keep-all;
+  word-wrap: normal;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .selfflag {
+  margin-top: 4px;
+}
+.bodybox .search .resultwrap .result .goods .goodswrap .desc .selfflag span {
+  color: #999;
+}

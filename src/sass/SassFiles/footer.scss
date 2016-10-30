@@ -1,0 +1,160 @@
+.footerWrap {
+    .footBgWrap {
+        background: #fff;
+        border-top: 1px solid #eaeaea;
+        .box {
+            width: 1090px;
+            margin: 0 auto;
+            .btmlist {
+                height: 44px;
+                padding: 40px 0;
+                border-bottom: 1px solid #eaeaea;
+                ul {
+                    list-style: none;
+                    li {
+                        float: left;
+                        width: 272px;
+                        i {
+                            float: left;
+                            margin: 0 12px 0 0;
+                            width: 44px;
+                            height: 44px;
+                            background: url(../img/index_carousel/icon1.png) no-repeat;
+                            background-position: -751px 0;
+                            display: inline-block;
+                        }
+                        strong {
+                            font-size: 18px;
+                            font-weight: bold;
+                            display: block;
+                            line-height: 22px;
+                        }
+                        span {
+                            font-size: 14px;
+                            display: block;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+            .guideList {
+                height: 128px;
+                padding: 40px 0 90px;
+                ul {
+                    list-style: none;
+                    .first {
+                        width: 194px;
+                        padding-right: 40px;
+                        padding-left: 30px;
+                        border: none;
+                        .logokaola {
+                            display: block;
+                            width: 200px;
+                            height: 43px;
+                            line-height: 45px;
+                            margin-bottom: 20px;
+                            cursor: pointer;
+                            background: url(../img/index_footer/footerlogo.png) no-repeat;
+                        }
+                        .focuson {
+                            height: 32px;
+                            .label,
+                            .item {
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+                            .item {
+                                position: relative;
+                                margin-left: 10px;
+                                cursor: pointer;
+                                em {
+                                    width: 32px;
+                                    height: 32px;
+                                    background: url(../img/index_carousel/icon1.png) no-repeat;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                }
+                                .weibo {
+                                    background-position: -752px -69px;
+                                }
+                                .weixin {
+                                    background-position: -796px -69px;
+                                }
+                                .kaola {
+                                    background-position: -840px -69px;
+                                }
+                            }
+                        }
+                    }
+                    .last {
+                        margin-left: 10px;
+                        width: 108px;
+                        padding: 0;
+                        text-align: center;
+                        float: left;
+                        border: none;
+                        img {
+                            margin: 0 0 6px;
+                        }
+                    }
+                    li {
+                        float: left;
+                        width: 110px;
+                        padding: 0 0 0 25px;
+                        height: 128px;
+                        border-left: 1px solid #eaeaea;
+                        dt {
+                            margin: -4px 0 10px;
+                            em {
+                                font-size: 18px;
+                                font-weight: normal;
+                            }
+                        }
+                        dd {
+                            line-height: 24px;
+                            a {
+                                color: #333;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .aboutNEST {
+        color: #c2c2c2;
+        position: relative;
+        padding: 20px 0;
+        background: #333;
+        line-height: 26px;
+        text-align: center;
+        a {
+            color: #c2c2c2;
+        }
+        .license {
+            margin-left: 0;
+            img {
+                margin-top: -2px;
+                vertical-align: middle;
+                display: inline-block;
+            }
+        }
+        .licenses {
+            margin-left: 20px;
+        }
+        .safe {
+            text-align: center;
+            span a img {
+                margin-top: 5px;
+                border-radius: 5px;
+                width: 80px;
+                height: 30px;
+            }
+            .safelogo img {
+                height: 30px;
+                margin: 5px 0 0 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,1324 @@
+.mainWrap {
+  width: 1090px;
+  font-size: 14px;
+  border-top: 1px solid #E8E8E8;
+  margin: auto;
+  position: relative;
+  padding: 10px 0 0;
+}
+.mainWrap ol,
+.mainWrap ul {
+  list-style: none;
+}
+.mainWrap .crumbs {
+  color: #999;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #DDD;
+  font-size: 13px;
+  margin: 5px auto 10px;
+  height: 16px;
+  line-height: 16px;
+}
+.mainWrap .crumbs .crumbs a,
+.mainWrap .crumbs .crumbs span {
+  vertical-align: middle;
+}
+.mainWrap .crumbs .crumbs a,
+.mainWrap .crumbs .crumbs strong {
+  margin: 0 3px;
+  font-weight: 400;
+}
+.mainWrap .crumbs .ellipsis {
+  display: inline-block;
+  max-width: 500px;
+  color: #999;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: keep-all;
+  word-wrap: normal;
+}
+.mainWrap .PInfoWrap {
+  margin: 20px 0 0;
+  position: relative;
+}
+.mainWrap .PInfoWrap .PImgBox {
+  float: left;
+  width: 402px;
+  height: 488px;
+  position: relative;
+  display: inline;
+  z-index: 1000;
+}
+.mainWrap .PInfoWrap .PImgBox .scrollleft {
+  left: 0;
+  top: 421px;
+  color: #DDD;
+  display: inline-block;
+  z-index: 1000;
+  width: 33px;
+  height: 62px;
+  position: absolute;
+  padding: 1px 0;
+  margin: 0;
+  border: 1px solid #EEE;
+  text-decoration: none;
+  font-size: 38px;
+  line-height: 62px;
+  text-align: center;
+  background-color: #FFF;
+}
+.mainWrap .PInfoWrap .PImgBox .scrollRight {
+  top: 421px;
+  right: 0;
+  display: inline-block;
+  z-index: 1000;
+  width: 33px;
+  height: 62px;
+  position: absolute;
+  padding: 1px 0;
+  margin: 0;
+  border: 1px solid #EEE;
+  text-decoration: none;
+  font-size: 38px;
+  color: #666;
+  line-height: 62px;
+  text-align: center;
+  background-color: #FFF;
+}
+.mainWrap .PInfoWrap .PImgBox .litimgBox {
+  position: absolute;
+  height: 70px;
+  overflow: hidden;
+  top: 419px;
+  left: 35px;
+  width: 330px;
+}
+.mainWrap .PInfoWrap .PImgBox .showImgBox {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #EEE;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  cursor: crosshair;
+}
+.mainWrap .PInfoWrap .PImgBox .showLocalImg {
+  display: inline-block;
+  position: absolute;
+  left: 372px;
+  top: 372px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #AAA;
+  font-size: 21px;
+  opacity: .6;
+  margin-right: 5px;
+}
+.mainWrap .PInfoWrap .PInfo {
+  position: relative;
+  float: left;
+  width: 658px;
+  margin-left: 30px;
+  font-size: 13px;
+}
+.mainWrap .PInfoWrap .PInfo dt {
+  color: #333;
+  word-wrap: break-word;
+}
+.mainWrap .PInfoWrap .PInfo .PTags {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  margin-left: -6px;
+}
+.mainWrap .PInfoWrap .PInfo .PTags .tag {
+  display: inline-block;
+  width: 54px;
+  height: 22px;
+  margin-left: 6px;
+  padding-right: 6px;
+  line-height: 22px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 700;
+  background: url(../img/product/tags.jpg) no-repeat;
+}
+.mainWrap .PInfoWrap .PInfo .PTags .selftag {
+  background-position: 0 0;
+  color: #cf2c48;
+}
+.mainWrap .PInfoWrap .PInfo .PTags .crosstag {
+  background-position: -66px 0;
+  color: #8b71c5;
+}
+.mainWrap .PInfoWrap .PInfo .country {
+  position: relative;
+  font-size: 13px;
+}
+.mainWrap .PInfoWrap .PInfo .country img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .country a,
+.mainWrap .PInfoWrap .PInfo .country span {
+  margin-left: 6px;
+  color: #999;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .country .split {
+  font-size: 12px;
+}
+.mainWrap .PInfoWrap .PInfo .productTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+.mainWrap .PInfoWrap .PInfo .productTitle .member {
+  color: #C40C37;
+}
+.mainWrap .PInfoWrap .PInfo .subTit {
+  margin-bottom: 11px;
+  color: #333;
+  line-height: 20px;
+  font-size: 13px;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap {
+  background-color: #F9F9F9;
+  border-bottom: 1px dotted #DDD;
+  padding-bottom: 10px;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap .price {
+  position: relative;
+  padding-top: 5px;
+  border-top: 1px dotted #DDD;
+  z-index: 100;
+  font-size: 0;
+  margin-bottom: -8px;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap .price .lineTitle {
+  margin-left: 10px;
+  float: left;
+  line-height: 26px;
+  margin: 8px 0;
+  vertical-align: 4px;
+  font-size: 13px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap .price .priceCNT {
+  margin-left: 71px;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap .price .priceCNT .currentPrice {
+  font-size: 26px;
+  color: #D22046;
+  font-weight: 700;
+  vertical-align: baseline;
+  line-height: 1;
+  margin: 8px 0;
+  display: inline-block;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap .price .priceCNT .memberLabel {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #F68587;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 5px;
+  color: #FFF;
+  font-size: 12px;
+  vertical-align: 5px;
+  border-radius: 2px;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap .price .priceCNT .memberLabel .fbold {
+  font-weight: 700;
+}
+.mainWrap .PInfoWrap .PInfo .priceWrap .price .priceCNT .addprice {
+  vertical-align: 4px;
+  font-size: 13px;
+  color: #999;
+  margin-left: 14px;
+  margin-bottom: 8px;
+}
+.mainWrap .PInfoWrap .PInfo .postage {
+  margin-top: 14px;
+  position: relative;
+}
+.mainWrap .PInfoWrap .PInfo .postage .lineTitle {
+  float: left;
+  line-height: 24px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg {
+  margin-left: 85px;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg .from {
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg .toWrap {
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #CCC;
+  text-align: center;
+  padding: 0 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg .toWrap .to {
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  vertical-align: top;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg .feeInfo {
+  display: inline;
+  line-height: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg .feeInfo .postage {
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  margin: -5px 0 -5px -15px;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg .feeInfo .postage .fee {
+  position: relative;
+  z-index: 3;
+  padding: 0 15px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #fff;
+  cursor: default;
+}
+.mainWrap .PInfoWrap .PInfo .postage .msg .feeInfo .postage .desc {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 335px;
+  padding: 10px 15px;
+  line-height: 22px;
+  border: 1px solid #d5d5d5;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.mainWrap .PInfoWrap .PInfo .service {
+  margin-top: 10px;
+}
+.mainWrap .PInfoWrap .PInfo .service .PInfo .m-service a,
+.mainWrap .PInfoWrap .PInfo .service .PInfo .m-service span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.mainWrap .PInfoWrap .PInfo .service .tomorrowarr {
+  margin-top: 10px;
+}
+.mainWrap .PInfoWrap .PInfo .service .tomorrowarr .fBold {
+  font-weight: 700;
+}
+.mainWrap .PInfoWrap .PInfo .taxrateline {
+  margin-top: 5px;
+  margin-bottom: -9px;
+  white-space: nowrap;
+}
+.mainWrap .PInfoWrap .PInfo .taxrateline .lineTitle {
+  margin-left: 10px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+}
+.mainWrap .PInfoWrap .PInfo .taxrateline .skutaxdesc {
+  position: relative;
+  z-index: 2;
+  margin-left: 4px;
+  display: inline-block;
+  height: 32px;
+  width: 136px;
+  line-height: 32px;
+  vertical-align: -11px;
+}
+.mainWrap .PInfoWrap .PInfo .taxrateline .skutaxdesc .maintext {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  border: 1px solid #FFF;
+}
+.mainWrap .PInfoWrap .PInfo .taxrateline .skutaxdesc .desc {
+  display: none;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  top: 30px;
+  padding: 10px 15px;
+  width: 256px;
+  line-height: 22px;
+  border: 1px solid #D5D5D5;
+  background-color: #FFF;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.mainWrap .PInfoWrap .PInfo .nosku {
+  margin-top: 13px;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .lineTitle {
+  margin-left: 10px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  float: left;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buybox {
+  position: relative;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buybox .ctrnumWrap {
+  display: inline-block;
+  border: 1px solid #CCC;
+  text-align: center;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buybox .ctrnumWrap .dis {
+  color: #CCC!important;
+  background-color: #F3F3F3;
+  cursor: default;
+  border-right: 1px solid #CCC;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-family: iconfont;
+  text-decoration: none;
+  vertical-align: top;
+  -webkit-user-select: none;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buybox .ctrnumWrap .qty {
+  width: 38px;
+  padding: 4px 5px;
+  margin: 0;
+  line-height: 1;
+  height: 14px;
+  font-size: 14px;
+  vertical-align: top;
+  text-align: center;
+  color: #333;
+  border: none;
+  outline: 0;
+  font-family: tahoma, arial, simsun, "宋体";
+  box-sizing: content-box;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buybox .ctrnumWrap .ad {
+  border-left: 1px solid #CCC;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-family: iconfont;
+  text-decoration: none;
+  color: #333;
+  vertical-align: top;
+  -webkit-user-select: none;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buybox .domeTips {
+  color: #333;
+  font-weight: 300;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns {
+  display: block;
+  margin-top: 20px;
+  position: relative;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar {
+  font-size: 13px;
+  margin-top: 19px;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar .emptyStar {
+  position: relative;
+  font-family: iconfont;
+  font-size: 11px;
+  vertical-align: 1px;
+  display: inline-block;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  text-align: left;
+  color: #D61640;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar .emptyStar .fullStar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: inline-block;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  text-align: left;
+  color: #D61640;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar .goodPercent {
+  position: relative;
+  margin-left: 5px;
+  font-weight: 700;
+  color: #D22046;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar .comnum {
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar .comnum a {
+  color: #333;
+  font-weight: 700;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar .commWithImg {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .commentBar .commWithImg a {
+  color: #333;
+  font-weight: 700;
+}
+.mainWrap .PInfoWrap .PInfo .excelComm {
+  position: relative;
+  padding: 5px 90px 0 0;
+  margin-top: 10px;
+  border-top: 1px dotted #CCC;
+  color: #666;
+  font-size: 13px;
+}
+.mainWrap .PInfoWrap .PInfo .excelComm .detail {
+  line-height: 20px;
+  max-height: 40px;
+  min-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  transition: max-height 1s ease;
+}
+.mainWrap .PInfoWrap .PInfo .excelComm .tg {
+  position: absolute;
+  right: 0;
+  top: 28px;
+  width: 14px;
+  text-align: center;
+  color: #666;
+}
+.mainWrap .proRelPurWrap {
+  margin-top: 5px;
+  width: 1090px;
+  height: 364px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+.mainWrap .proRelPurWrap .newRecomTitle {
+  font-weight: 700;
+  height: 38px;
+  line-height: 38px;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.mainWrap .proRelPurWrap .newRecomTitle b {
+  padding-left: 12px;
+  font-size: 14px;
+  color: #999;
+}
+.mainWrap .proRelPurWrap .goodslst {
+  margin-left: -15px;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap {
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 204px;
+  height: 304px;
+  border: 1px solid #eaeaea;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap img,
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap input,
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap select {
+  vertical-align: middle;
+  display: inline-block;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemImg {
+  display: block;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemImg img {
+  width: 204px;
+  height: 204px;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemTitle {
+  margin-bottom: 9px;
+  padding: 0 15px;
+  height: 40px;
+  overflow: hidden;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemTitle a {
+  line-height: 20px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  word-break: break-all;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemTitle a b {
+  color: #E31436;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemInfo {
+  padding: 0 15px;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemInfo .price {
+  line-height: 14px;
+  color: #E31436;
+  font-size: 16px;
+  font-weight: 700;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemInfo .price .marprice {
+  padding-left: 5px;
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+}
+.mainWrap .proRelPurWrap .goodslst .newRecomItemWrap .itemInfo .comment {
+  display: block;
+  height: 24px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+.mainWrap .mainBtmWrap {
+  position: relative;
+  z-index: 0;
+  width: 1090px;
+  margin-top: 40px;
+  clear: both;
+}
+.mainWrap .mainBtmWrap .siderBox {
+  float: left;
+  width: 180px;
+  position: relative;
+  margin-right: 20px;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox {
+  margin-bottom: 15px;
+  border: 1px solid #EAEAEA;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox h4 {
+  font-weight: 700;
+  color: #333;
+  font-size: 16px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #EAEAEA;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView {
+  padding-bottom: 10px;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li {
+  position: relative;
+  margin: 0 10px;
+  padding: 10px 0 16px;
+  border-bottom: 1px solid #EAEAEA;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li .aImg {
+  display: inline-block;
+  overflow: hidden;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li .promotion {
+  height: 20px!important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #D22147;
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 20px;
+  word-break: initial;
+  width: auto;
+  margin: 0;
+  overflow: hidden;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li .promotion span {
+  font-size: 12px;
+  color: #D22147;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li .productTit {
+  padding: 0 5px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 20px;
+  word-break: initial;
+  width: auto;
+  margin: 0;
+  overflow: hidden;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li .productTit a {
+  word-break: break-all;
+  color: #333;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li .productTit a b {
+  color: #D22147;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li div .productPrice {
+  width: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 5px 5px 0;
+  line-height: 30px;
+  height: 25px;
+  color: #e73333;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li div .productPrice span {
+  font-size: 18px;
+  color: #D22146;
+  height: 24px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li div .productPrice del {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #999;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li div .commentCount {
+  padding: 0 5px;
+  font-size: 12px;
+  color: #999;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView li div .commentCount a {
+  color: #999;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView .bbNone {
+  border-bottom: none;
+}
+.mainWrap .mainBtmWrap .siderBox .sideGrayBox .userBuyView .rank {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  padding-left: 4px;
+  width: 26px;
+  height: 26px;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  background: url(../img/product/bg.png) -104px -304px no-repeat;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap {
+  width: 890px;
+  position: relative;
+  zoom: 1;
+  float: left;
+  padding-top: 50px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .nav {
+  position: fixed;
+  top: 0;
+  background-color: #FFF;
+  z-index: 88888;
+  width: 888px;
+  height: 48px;
+  border: 1px solid #EAEAEA;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .nav .buynowonly {
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  color: #FFF;
+  background-color: #D22147;
+  border: none;
+  text-decoration: none;
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .nav .appbuy {
+  position: relative;
+  top: 0;
+  right: 0;
+  float: right;
+  width: 138px;
+  line-height: 50px;
+  cursor: pointer;
+  z-index: 9999;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .nav span {
+  position: relative;
+  display: inline-block;
+  border-right: 1px solid #EAEAEA;
+  width: 159px;
+  color: #333;
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  cursor: pointer;
+  vertical-align: top;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .nav span em {
+  color: #D41C44;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .nav .active {
+  color: #D41C44;
+  background-color: #FFF;
+  font-weight: 700;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .nav .active i {
+  position: absolute;
+  height: 45px;
+  line-height: 0;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  border-top: 4px solid #D41C44;
+  border-bottom: 1px solid #FFF;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail {
+  border-bottom: 1px solid #EAEAEA;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .parameter {
+  padding: 15px 0 0 20px;
+  overflow: hidden;
+  position: relative;
+  border-left: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .parameter li {
+  float: left;
+  width: 30%;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #333;
+  padding: 5px 0 0;
+  margin-right: 3%;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .parameter .ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: keep-all;
+  word-wrap: normal;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .goodsParaTit {
+  line-height: 22px;
+  padding: 10px 20px;
+  border-left: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  font-size: 12px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .goodsParaTit .zk {
+  text-decoration: none;
+  cursor: pointer;
+  color: #51B8F1;
+  display: inline;
+  margin-bottom: 20px;
+  font-family: arial, "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .faketips {
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  border-top-width: 0;
+  padding: 15px 20px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .faketips .icon {
+  float: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 15px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background: #d22147;
+  color: #fff;
+  font-size: 24px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .faketips .cont {
+  margin-left: 55px;
+  margin-right: 70px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .faketips .cont .tit {
+  padding-bottom: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .faketips .cont .info {
+  color: #333;
+  font-size: 13px;
+  line-height: 19px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .textarea {
+  border-left: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .textarea .textareabox {
+  width: 710px;
+  margin: 0 auto;
+  text-align: initial;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .textarea .textareabox img {
+  display: inline-block;
+  max-width: 710px;
+  vertical-align: middle;
+  border: 0;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .packdate {
+  text-align: center;
+  border-left: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .goodsDetail .packdate img {
+  width: 710px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .priceintro {
+  margin: 15px 0 0;
+  padding: 15px 30px;
+  border: 1px solid #eaeaea;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .priceintro .tlt {
+  color: #000;
+  font-weight: 700;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .priceintro .tlt .pitm {
+  line-height: 23px;
+  color: #666;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating {
+  margin: 0;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo {
+  border: 1px solid #EAEAEA;
+  border-bottom-width: 0;
+  font-size: 0;
+  margin-top: 15px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo {
+  position: relative;
+  padding: 5px 25px 10px 30px;
+  width: 613px;
+  vertical-align: middle;
+  display: inline-block;
+  border-right: 1px solid #eaeaea;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .coverline {
+  position: absolute;
+  right: -1px;
+  width: 1px;
+  height: 20px;
+  background: #fff;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .t {
+  top: 0;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .b {
+  bottom: 0;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .rateinfo {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 15px 0;
+  margin: auto 0;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .rateinfo .stars {
+  position: relative;
+  top: 0;
+  margin-right: 5px;
+  font-family: iconfont;
+  display: inline-block;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  text-align: left;
+  color: #D61640;
+  font-size: 14px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .rateinfo .stars .full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: iconfont;
+  display: inline-block;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  text-align: left;
+  color: #D61640;
+  font-size: 14px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .rateinfo .goodpercent {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  height: 20px;
+  color: #D61640;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .comminfo .rateinfo .goodpercent i {
+  font-size: 22px;
+  font-weight: 700;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .beanintro {
+  position: relative;
+  display: inline-block;
+  width: 186px;
+  height: 60px;
+  margin: 20px 0 20px -1px;
+  vertical-align: middle;
+  padding-left: 33px;
+  border-left: 1px solid #eaeaea;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .beanintro p {
+  font-size: 13px;
+  line-height: 17px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .beanintro .send {
+  padding-right: 7px;
+  font-size: 13px;
+  padding-top: 10px;
+  display: inline-block;
+  color: #51B8F1;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .beanintro .line {
+  color: #ccc;
+  display: inline;
+  font-size: 13px;
+  line-height: 17px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commentinfo .beanintro .intro {
+  padding-left: 7px;
+  font-size: 13px;
+  padding-top: 10px;
+  display: inline-block;
+  color: #51B8F1;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav {
+  height: 48px;
+  overflow: hidden;
+  background-color: #F8F8F8;
+  padding: 0;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 0;
+  color: #666;
+  background: #FFF;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav li {
+  padding: 0;
+  height: 18px;
+  float: left;
+  margin: 14px 0 0 25px;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav li label {
+  cursor: pointer;
+  display: inline-block;
+  color: #333;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav li label .wrapnRadio {
+  color: #666;
+  vertical-align: -2px;
+  margin-right: 5px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  text-decoration: none;
+  outline: 0;
+  z-index: 99;
+  background: url(../img/product/nRadio.png) 0 -14px no-repeat;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav li .active {
+  color: #D31B44;
+  font-weight: 700;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav .last {
+  margin-right: 28px;
+  text-align: right;
+  float: right;
+  background: 0 0;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav .last .hasContent {
+  color: #666;
+  font-size: 14px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav .last .hasContent .box {
+  display: inline-block;
+  height: 14px;
+  vertical-align: middle;
+  position: relative;
+  padding-right: 22px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ddd;
+  font-family: iconfont;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav .last .hasContent .box i {
+  margin-right: 8px;
+  text-indent: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  font-size: 15px;
+  color: #D12147;
+  text-align: center;
+  background: #fff;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav .last .hasContent .box em {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  font-size: 16px;
+  text-indent: -9999px;
+  border: 1px solid #ddd;
+  color: transparent;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .rateNav .last .reviewComment {
+  display: inline-block;
+  color: #51B8F1;
+  padding: 0 20px 0 17px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap {
+  border: 1px solid #E8E8E8;
+  border-bottom: none;
+  border-top: none;
+  font-size: 13px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew {
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #E8E8E8;
+  padding: 15px 13px;
+  clear: both;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .userinfo {
+  width: 88px;
+  text-align: center;
+  float: left;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .userinfo .avatar {
+  margin: 6px auto 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .userinfo .account {
+  font-size: 12px;
+  color: #999;
+  word-break: break-all;
+  word-wrap: break-word;
+  padding: 0 5px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt {
+  width: 600px;
+  float: left;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt .commcnttop {
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt .commcnttop .commstars {
+  margin-right: 10px;
+  margin-top: -1px;
+  display: inline-block;
+  width: 48px;
+  float: left;
+  font-family: iconfont;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt .commcnttop .commstars .percentStar {
+  font-size: 12px;
+  margin-left: -9px;
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  line-height: 18px;
+  color: #D61640;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt .commcnttop .commstars .percentStar .fullStar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: inline-block;
+  height: 18px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  line-height: 18px;
+  color: #D61640;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt li {
+  margin-bottom: 5px;
+  line-height: 24px;
+  color: #666;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt li label {
+  display: inline-block;
+  margin-right: 9px;
+  background: #D22147;
+  color: #FFF;
+  padding: 0 6px;
+  line-height: 18px;
+  font-size: 12px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt li .picList {
+  padding-bottom: 5px;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt li .picList .picItem {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  overflow: hidden;
+  text-align: center;
+  background: #f5f5f5;
+  cursor: url(../img/product/ZI.png), auto;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commcnt li .picList .picItem img {
+  vertical-align: middle;
+  display: inline-block;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .commWrap .eachinfonew .commopts {
+  width: 130px;
+  padding-left: 70px;
+  margin: 0;
+  font-size: 12px;
+  color: #999;
+  float: right;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages {
+  padding: 20px 0;
+  text-align: right;
+  color: #333;
+  overflow: hidden;
+  clear: both;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages .prevPage {
+  border-color: #e8e8e8;
+  color: #bababa;
+  background-color: #fff;
+  width: 58px;
+  position: relative;
+  margin-right: 5px;
+  display: inline-block;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #e3e3e3;
+  vertical-align: middle;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages .nextPage {
+  margin-right: 15px;
+  background-color: #fff;
+  width: 58px;
+  position: relative;
+  margin-left: 5px;
+  display: inline-block;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #e3e3e3;
+  color: #333;
+  vertical-align: middle;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages a {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  margin-right: -1px;
+  line-height: 28px;
+  border: 1px solid #e3e3e3;
+  color: #333;
+  vertical-align: middle;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages .jumptoTip {
+  border-color: #fff;
+  background-color: #fff;
+  color: #333;
+  margin-right: 5px;
+  width: auto;
+  position: relative;
+  display: inline-block;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #e3e3e3;
+  vertical-align: middle;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages .jumptoTxt {
+  width: 35px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  border: 1px solid #e3e3e3;
+  outline: 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages .jumptoBtn {
+  color: #333;
+  display: inline-block;
+  text-align: center;
+  width: 45px;
+  height: 30px;
+  line-height: 30px;
+  border-color: #e8e8e8;
+  margin-right: 0;
+}
+.mainWrap .mainBtmWrap .goodsDetailWrap .userRating .pageNavWrap .splitPages em {
+  border: none;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  margin-right: -1px;
+  line-height: 28px;
+  color: #333;
+}

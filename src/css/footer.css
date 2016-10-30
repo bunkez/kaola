@@ -1,0 +1,158 @@
+.footerWrap .footBgWrap {
+  background: #fff;
+  border-top: 1px solid #eaeaea;
+}
+.footerWrap .footBgWrap .box {
+  width: 1090px;
+  margin: 0 auto;
+}
+.footerWrap .footBgWrap .box .btmlist {
+  height: 44px;
+  padding: 40px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.footerWrap .footBgWrap .box .btmlist ul {
+  list-style: none;
+}
+.footerWrap .footBgWrap .box .btmlist ul li {
+  float: left;
+  width: 272px;
+}
+.footerWrap .footBgWrap .box .btmlist ul li i {
+  float: left;
+  margin: 0 12px 0 0;
+  width: 44px;
+  height: 44px;
+  background: url(../img/index_carousel/icon1.png) no-repeat;
+  background-position: -751px 0;
+  display: inline-block;
+}
+.footerWrap .footBgWrap .box .btmlist ul li strong {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  line-height: 22px;
+}
+.footerWrap .footBgWrap .box .btmlist ul li span {
+  font-size: 14px;
+  display: block;
+  line-height: 22px;
+}
+.footerWrap .footBgWrap .box .guideList {
+  height: 128px;
+  padding: 40px 0 90px;
+}
+.footerWrap .footBgWrap .box .guideList ul {
+  list-style: none;
+}
+.footerWrap .footBgWrap .box .guideList ul .first {
+  width: 194px;
+  padding-right: 40px;
+  padding-left: 30px;
+  border: none;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .logokaola {
+  display: block;
+  width: 200px;
+  height: 43px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: url(../img/index_footer/footerlogo.png) no-repeat;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .focuson {
+  height: 32px;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .focuson .label,
+.footerWrap .footBgWrap .box .guideList ul .first .focuson .item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .focuson .item {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .focuson .item em {
+  width: 32px;
+  height: 32px;
+  background: url(../img/index_carousel/icon1.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .focuson .item .weibo {
+  background-position: -752px -69px;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .focuson .item .weixin {
+  background-position: -796px -69px;
+}
+.footerWrap .footBgWrap .box .guideList ul .first .focuson .item .kaola {
+  background-position: -840px -69px;
+}
+.footerWrap .footBgWrap .box .guideList ul .last {
+  margin-left: 10px;
+  width: 108px;
+  padding: 0;
+  text-align: center;
+  float: left;
+  border: none;
+}
+.footerWrap .footBgWrap .box .guideList ul .last img {
+  margin: 0 0 6px;
+}
+.footerWrap .footBgWrap .box .guideList ul li {
+  float: left;
+  width: 110px;
+  padding: 0 0 0 25px;
+  height: 128px;
+  border-left: 1px solid #eaeaea;
+}
+.footerWrap .footBgWrap .box .guideList ul li dt {
+  margin: -4px 0 10px;
+}
+.footerWrap .footBgWrap .box .guideList ul li dt em {
+  font-size: 18px;
+  font-weight: normal;
+}
+.footerWrap .footBgWrap .box .guideList ul li dd {
+  line-height: 24px;
+}
+.footerWrap .footBgWrap .box .guideList ul li dd a {
+  color: #333;
+  cursor: pointer;
+}
+.footerWrap .aboutNEST {
+  color: #c2c2c2;
+  position: relative;
+  padding: 20px 0;
+  background: #333;
+  line-height: 26px;
+  text-align: center;
+}
+.footerWrap .aboutNEST a {
+  color: #c2c2c2;
+}
+.footerWrap .aboutNEST .license {
+  margin-left: 0;
+}
+.footerWrap .aboutNEST .license img {
+  margin-top: -2px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.footerWrap .aboutNEST .licenses {
+  margin-left: 20px;
+}
+.footerWrap .aboutNEST .safe {
+  text-align: center;
+}
+.footerWrap .aboutNEST .safe span a img {
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+.footerWrap .aboutNEST .safe .safelogo img {
+  height: 30px;
+  margin: 5px 0 0 10px;
+}
