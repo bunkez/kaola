@@ -1,3 +1,16 @@
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+body {
+  background-color: #f3f3f3;
+}
 .bodybox .search {
   position: relative;
   width: 1104px;
@@ -15,6 +28,7 @@
 .bodybox .search .resultwrap .options .resultinfo {
   margin: 15px 0 10px;
   line-height: 22px;
+  height: 24px;
 }
 .bodybox .search .resultwrap .options .resultinfo .total {
   float: left;
@@ -24,7 +38,7 @@
 .bodybox .search .resultwrap .options .resultinfo .total a {
   color: #333;
 }
-.bodybox .search .resultwrap .options .resultinfo .total gap {
+.bodybox .search .resultwrap .options .resultinfo .total .gap {
   display: inline-block;
   zoom: 1;
   width: 10px;
@@ -33,7 +47,7 @@
   color: #999;
   font-weight: bold;
 }
-.bodybox .search .resultwrap .options .resultinfo .total .chosen {
+.bodybox .search .resultwrap .options .resultinfo .chosen {
   display: inline-block;
   position: relative;
   float: left;
@@ -46,7 +60,7 @@
   font-size: 12px;
   cursor: pointer;
 }
-.bodybox .search .resultwrap .options .resultinfo .total .chosen i {
+.bodybox .search .resultwrap .options .resultinfo .chosen i {
   position: absolute;
   top: 0;
   right: 0;
@@ -56,7 +70,7 @@
   color: #000;
   font-family: "iconfont";
 }
-.bodybox .search .resultwrap .options .resultinfo gap {
+.bodybox .search .resultwrap .options .resultinfo .gap {
   display: inline-block;
   zoom: 1;
   width: 10px;
@@ -64,6 +78,8 @@
   font-family: simsun;
   color: #999;
   font-weight: bold;
+}
+.bodybox .search .resultwrap .options .resultinfo .fl {
   float: left;
 }
 .bodybox .search .resultwrap .options .resultinfo a {
@@ -157,6 +173,7 @@
 }
 .bodybox .search .resultwrap .options .opertaion filter {
   background-color: #fff;
+  height: 36px;
 }
 .bodybox .search .resultwrap .options .hdorder {
   height: 36px;
@@ -165,11 +182,11 @@
 .bodybox .search .resultwrap .options .hdorder .order {
   position: relative;
   float: left;
-  width: 175px;
   height: 36px;
   line-height: 36px;
   margin-left: 20px;
   font-size: 14px;
+  margin-left: 0px;
 }
 .bodybox .search .resultwrap .options .hdorder .order .active {
   position: relative;
@@ -294,7 +311,6 @@
   width: 262px;
   height: 387px;
   margin: 0 7px 14px;
-  _margin: 0 6px 14px;
   background-color: #fff;
   font-size: 12px;
 }
@@ -414,6 +430,7 @@
   padding-left: 20px;
   color: #333;
   font-weight: bold;
+  line-height: 20px;
 }
 .bodybox .search .resultwrap .result .goods .goodswrap .desc .goodsinfo .comments .icon {
   display: block;

@@ -21,12 +21,13 @@
   height: 16px;
   line-height: 16px;
 }
-.mainWrap .crumbs .crumbs a,
-.mainWrap .crumbs .crumbs span {
+.mainWrap .crumbs a,
+.mainWrap .crumbs span {
   vertical-align: middle;
+  color: #999;
 }
-.mainWrap .crumbs .crumbs a,
-.mainWrap .crumbs .crumbs strong {
+.mainWrap .crumbs a,
+.mainWrap .crumbs strong {
   margin: 0 3px;
   font-weight: 400;
 }
@@ -44,6 +45,7 @@
 .mainWrap .PInfoWrap {
   margin: 20px 0 0;
   position: relative;
+  height: 601px;
 }
 .mainWrap .PInfoWrap .PImgBox {
   float: left;
@@ -53,7 +55,7 @@
   display: inline;
   z-index: 1000;
 }
-.mainWrap .PInfoWrap .PImgBox .scrollleft {
+.mainWrap .PInfoWrap .PImgBox .scrollLeft {
   left: 0;
   top: 421px;
   color: #DDD;
@@ -96,6 +98,26 @@
   top: 419px;
   left: 35px;
   width: 330px;
+}
+.mainWrap .PInfoWrap .PImgBox .litimgBox .litimgUl {
+  position: absolute;
+  top: 0;
+  padding-left: 10px;
+}
+.mainWrap .PInfoWrap .PImgBox .litimgBox .litimgUl li {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+.mainWrap .PInfoWrap .PImgBox .litimgBox .litimgUl li a {
+  display: inline-block;
+  overflow: hidden;
+  height: 64px;
+  width: 64px;
+  border: 1px solid #EEE;
+  margin: 2px;
 }
 .mainWrap .PInfoWrap .PImgBox .showImgBox {
   position: relative;
@@ -328,10 +350,17 @@
 .mainWrap .PInfoWrap .PInfo .service {
   margin-top: 10px;
 }
-.mainWrap .PInfoWrap .PInfo .service .PInfo .m-service a,
-.mainWrap .PInfoWrap .PInfo .service .PInfo .m-service span {
-  vertical-align: middle;
+.mainWrap .PInfoWrap .PInfo .service a,
+.mainWrap .PInfoWrap .PInfo .service span {
   display: inline-block;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .service .lineTitle {
+  line-height: 24px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
 }
 .mainWrap .PInfoWrap .PInfo .service .tomorrowarr {
   margin-top: 10px;
@@ -456,6 +485,52 @@
   margin-top: 20px;
   position: relative;
 }
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns span .buynowonly {
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFF;
+  background-color: #D22147;
+  border: none;
+  margin-right: 8px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns span .colBtn {
+  margin-right: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: middle;
+  height: 48px;
+  width: 155px;
+  padding-right: 3px;
+  line-height: 48px;
+  border: 1px solid #DDD;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns span .colBtn .txt {
+  color: #333;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns span .buynowonlyWrap {
+  padding: 10px 0 0;
+  color: #666;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns span .buynowonlyWrap .tip {
+  float: left;
+  width: 40px;
+  line-height: 25px;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns span .buynowonlyWrap ul {
+  margin-left: 40px;
+}
+.mainWrap .PInfoWrap .PInfo .nosku .buyBtns span .buynowonlyWrap ul li {
+  line-height: 25px;
+}
 .mainWrap .PInfoWrap .PInfo .commentBar {
   font-size: 13px;
   margin-top: 19px;
@@ -555,6 +630,7 @@
 }
 .mainWrap .proRelPurWrap .goodslst {
   margin-left: -15px;
+  height: 321px;
 }
 .mainWrap .proRelPurWrap .goodslst .newRecomItemWrap {
   float: left;
@@ -617,7 +693,7 @@
 }
 .mainWrap .mainBtmWrap {
   position: relative;
-  z-index: 0;
+  height: 23500px;
   width: 1090px;
   margin-top: 40px;
   clear: both;

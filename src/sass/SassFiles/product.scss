@@ -19,12 +19,13 @@
         margin: 5px auto 10px;
         height: 16px;
         line-height: 16px;
-        .crumbs a,
-        .crumbs span {
+        a,
+        span {
             vertical-align: middle;
+            color: #999;
         }
-        .crumbs a,
-        .crumbs strong {
+        a,
+        strong {
             margin: 0 3px;
             font-weight: 400;
         }
@@ -43,6 +44,7 @@
     .PInfoWrap {
         margin: 20px 0 0;
         position: relative;
+        height: 601px;
         .PImgBox {
             float: left;
             width: 402px;
@@ -50,7 +52,7 @@
             position: relative;
             display: inline;
             z-index: 1000;
-            .scrollleft {
+            .scrollLeft {
                 left: 0;
                 top: 421px;
                 color: #DDD;
@@ -93,6 +95,26 @@
                 top: 419px;
                 left: 35px;
                 width: 330px;
+                .litimgUl {
+                    position: absolute;
+                    top: 0;
+                    padding-left: 10px;
+                    li {
+                        width: 70px;
+                        height: 70px;
+                        overflow: hidden;
+                        float: left;
+                        margin-right: 10px;
+                        a {
+                            display: inline-block;
+                            overflow: hidden;
+                            height: 64px;
+                            width: 64px;
+                            border: 1px solid #EEE;
+                            margin: 2px;
+                        }
+                    }
+                }
             }
             .showImgBox {
                 position: relative;
@@ -324,10 +346,17 @@
             }
             .service {
                 margin-top: 10px;
-                .PInfo .m-service a,
-                .PInfo .m-service span {
-                    vertical-align: middle;
+                a,
+                span {
                     display: inline-block;
+                    vertical-align: middle;
+                }
+                .lineTitle {
+                    line-height: 24px;
+                    margin-left: 10px;
+                    display: inline-block;
+                    width: 75px;
+                    color: #666;
                 }
                 .tomorrowarr {
                     margin-top: 10px;
@@ -451,6 +480,54 @@
                     display: block;
                     margin-top: 20px;
                     position: relative;
+                    span {
+                        .buynowonly {
+                            width: 160px;
+                            height: 50px;
+                            line-height: 50px;
+                            color: #FFF;
+                            background-color: #D22147;
+                            border: none;
+                            margin-right: 8px;
+                            display: inline-block;
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight: 700;
+                            text-decoration: none;
+                            vertical-align: middle;
+                        }
+                        .colBtn {
+                            margin-right: 20px;
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight: 700;
+                            text-decoration: none;
+                            vertical-align: middle;
+                            height: 48px;
+                            width: 155px;
+                            padding-right: 3px;
+                            line-height: 48px;
+                            border: 1px solid #DDD;
+                            .txt {
+                                color: #333;
+                            }
+                        }
+                        .buynowonlyWrap {
+                            padding: 10px 0 0;
+                            color: #666;
+                            .tip {
+                                float: left;
+                                width: 40px;
+                                line-height: 25px;
+                            }
+                            ul {
+                                margin-left: 40px;
+                                li {
+                                    line-height: 25px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
             .commentBar {
@@ -553,6 +630,7 @@
         }
         .goodslst {
             margin-left: -15px;
+            height: 321px;
             .newRecomItemWrap {
                 float: left;
                 margin-left: 15px;
@@ -616,7 +694,7 @@
     }
     .mainBtmWrap {
         position: relative;
-        z-index: 0;
+        height: 23500px;
         width: 1090px;
         margin-top: 40px;
         clear: both;
