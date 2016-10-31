@@ -140,13 +140,22 @@ body {
                     opacity: 0.6;
                     cursor: default;
                     background: #ca5252;
+                    float: left;
+                    border: 0;
+                    width: 322px;
+                    height: 46px;
+                    margin-top: 12px;
+                    text-align: center;
+                    font-size: 18px;
+                    color: #fff;
+                    line-height: 46px;
                 }
                 .Select {
                     padding: 0;
                     line-height: 40px;
                     float: left;
                     width: 108px;
-                    height: 46px;
+                    height: 48px;
                     margin-top: 12px;
                     border-color: #ddd;
                     margin-left: 10px;
