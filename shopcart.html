@@ -7,7 +7,7 @@
     <link rel='stylesheet' type='text/css' href='src/css/reset.css'>
     <link rel='stylesheet' type='text/css' href='src/css/iconfont.css'>
     <link rel='stylesheet' type='text/css' href='src/css/index_top.css'>
-    <link rel='stylesheet' type='text/css' href='src/css/product.css'>
+    <link rel='stylesheet' type='text/css' href='src/css/shopcart.css'>
     <link rel='stylesheet' type='text/css' href='src/css/footer.css'>
     <link rel="shortcut icon" href="src/img/index_top/favicon.ico">
     <script src='src/lib/jquery-1.12.4.min.js'></script>
@@ -74,7 +74,7 @@
         <div class="docHeadWrap">
             <a href="javascript:void(0);" class="logokaola" title="网易考拉海购"></a>
             <div class="searchBox">
-                <div class="topSearchBox">
+                <div class="topSearchBox" style="display:none;">
                     <div class="wrap">
                         <input class="topSearchInput" type="text" placeholder="在千万海外商品中搜索">
                     </div>
@@ -86,14 +86,14 @@
                     </span>
                 </div>
             </div>
-            <a href="javascript:void(0)" class="shopCart" style="color:gray;">
+            <a href="javascript:void(0)" class="shopCart" style="color:gray;display:none;">
                 <i class="iconfont" style="vertical-align: middle;">&#xe63f;</i>
                 <span class="wrap">购物车</span>
             </a>
         </div>
     </div>
     <!--导航栏-->
-    <div class="nav">
+    <div class="nav" style="display:none;">
         <div class="navTab">
             <div class="list">
                 <div class="listHead">
@@ -203,367 +203,87 @@
     </div>
     <!--主体-->
     <div class="mainWrap">
-        <div class="crumbs">
-            <a href="http://www.kaola.com/">网易考拉海购</a> >
-            <span class="ellipsis">Karicare 可瑞康 婴幼儿羊奶粉 3段 900克</span>
-        </div>
-        <div class="PInfoWrap">
-            <div class="PImgBox">
-                <a href="javascript:void(0);" class="scrollLeft"></a>
-                <a href="javascript:void(0);" class="scrollRight"></a>
-                <div class="litimgBox">
-                    <ul class="litimgUl" style="width: 400px;height:70px;">
-                        <li>
-                            <a href="javascript:;"><img src="src/img/product/smallpic/s1.jpg"></a>
-                        </li>
-                        <li>
-                            <a href="javascript:;"><img src="src/img/product/smallpic/s2.jpg"></a>
-                        </li>
-                        <li>
-                            <a href="javascript:;"><img src="src/img/product/smallpic/s3.jpg"></a>
-                        </li>
-                        <li>
-                            <a href="javascript:;"><img src="src/img/product/smallpic/s4.jpg"></a>
-                        </li>
-                        <li>
-                            <a href="javascript:;"><img src="src/img/product/smallpic/s5.jpg"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="showImgBox">
-                    <img src="src/img/product/smallpic/b1.jpg">
+        <div class="cartbox">
+            <h3 class="mycart">我的购物车 </h3>
+            <div class="nocart" style="display: none;">
+                <div class="wrap">
+                    <p>购物车里空空如也，赶紧去&nbsp;<a href="javascript:void(0);">逛逛吧&gt;</a></p>
+                    <p>或者您可以先进行&nbsp;<a href="javascript:void(0);">登录&gt;</a></p>
                 </div>
             </div>
-            <div class="PInfo">
-                <dt class="PTags">
-					<i class="selftag tag">自营</i>
-					<i class="crosstag tag">跨境</i>
-				</dt>
-                <dt class="country">
-                    <img src="src/img/product/country.png">
-                    <span>新西兰</span><span class="split">|</span>
-                    <a class="brand" href="javascript:void(0);">Karicare 可瑞康</a>
-                </dt>
-                <dt class="productTitle">Karicare&nbsp;可瑞康&nbsp;婴幼儿羊奶粉&nbsp;3段&nbsp;900克</dt>
-                <dt class="subTit">羊奶，在欧美国家被视为乳品中精品，称作“贵族奶”，接近母乳蛋白，更易被人体吸收。质地细腻，奶味浓郁，无膻味；蛋白质、钙、磷及其他维生素矿物质成分含量充足，是天然的营养品。</dt>
-                <dd class="priceWrap">
-                    <div class="price">
-                        <span class="lineTitle" style="margin-left: 10px;">促销价</span>
-                        <div class="priceCNT">
-                            <div class="currentPrice">
-                                ￥
-                                <span>223.00</span>
+            <div class="cartBox">
+                <div class="head">
+                    <div class="col1"><input type="checkbox" class="chk"><label class="lab">全选</label> </div>
+                    <div class="col2">商品信息</div>
+                    <div class="col3">单价(元)</div>
+                    <div class="col4">数量</div>
+                    <div class="col5">金额(元)</div>
+                    <div class="col6">操作</div>
+                </div>
+                <div class="cart  ">
+                    <div class="ware">
+                        <input type="checkbox" class="chk"><strong class="warename">美国1号仓发货</strong>
+                    </div>
+                    <div class="goods">
+                        <ul>
+                            <li>
+                                <div class="col0">
+                                    <input type="checkbox" class="chk">
+                                </div>
+                                <div class="col2">
+                                    <a href="javascript:void(0);" class="imgwrap"><img src="src/img/shopcart/m1.jpg"></a>
+                                    <div class="txtwrap">
+                                        <h3 class="goodtlt">
+                                            <a href="javascript:void(0);">Daniel Wellington 简约镶钻小表盘皮带女表 0903DW</a>
+                                        </h3>
+                                        <p class="property"></p>
+                                    </div>
+                                </div>
+                                <div class="col3">
+                                    <del class="oldprice">1680.00</del>
+                                    <span class="newprice">549.00</span>
+                                    <span class="acttag">特价</span>
+                                </div>
+                                <div class="col4">
+                                    <span class="setcount">
+                                    <span class="minus"> </span>
+                                    <input type="text" class="ipt">
+                                    <span class="plus"> </span>
+                                    </span>
+                                </div>
+                                <div class="col5">
+                                    <span class="sum">1098.00</span>
+                                </div>
+                                <div class="col6">
+                                    <a class="opt">删除</a>
+                                    <span class="opt">移入我的收藏</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="cartinfo">
+                            <span class="discount">活动优惠：-￥0.00</span>
+                            <div class="allsum">
+                                <span>商品应付总计：<em class="totalnum">￥0.00</em></span>
                             </div>
-                            <span class="memberLabel">7.5折</span>
-                            <span class="addprice">参考价&nbsp;&nbsp;¥<span>299.00</span></span>
+                            <div class="taxbox">
+                                <span><em>预估税费：</em>￥0.00</span>
+                            </div>
                         </div>
                     </div>
-                </dd>
-                <dd class="postage">
-                    <span class="lineTitle">运费</span>
-                    <div class="msg">
-                        <span class="from">杭州</span>
-                        <span class="from">至</span>
-                        <span class="toWrap"><span class="to">广东广州市荔湾区</span></span>
-                        <span class="feeInfo">
-                            <span>
-                                <span class="postage">
-                                    <i class="fee">订单实付满88元免运费</i>
-                                    <i class="desc">自营实付满88元免运费，不足金额的订单收取10元运费，<br>税费、活动及优惠券不计入88元金额，<br>部分特殊商品及入驻商家商品单独计算运费。</i>
-                                </span>
-                        </span>
-                        </span>
+                </div>
+                <div class="totalbox">
+                    <div class="total" style="position: relative; width: 1088px;">
+                        <div class="ttbar">
+                            <div class="lt">
+                                <input type="checkbox" class="chk"><label class="lab">全选</label><b class="opt">删除选中商品</b>
+                            </div>
+                            <div class="rt">
+                                <p class="allgoods">已选商品 <em class="num">0</em> 件 <span class="itm">总价(不含运费)：<em class="num">￥0.00</em></span></p>
+                                <p class="allmoney">活动优惠：-￥0.00<span class="itm">商品应付总计：￥0.00</span><span class="itm">商品税费：￥0.00</span></p>
+                                <a class="gobuy">去结算</a>
+                            </div>
+                        </div>
                     </div>
-                </dd>
-                <dd class="service">
-                    <span class="lineTitle">服务</span> <span>本商品由 自营杭州保税3号仓 发货</span>
-                    <div class="tomorrowarr">
-                        <span class="lineTitle"> </span><span>24:00</span><span>前完成支付，预计</span><span class="fBold">11月4日(周五)</span><span>送达</span>
-                    </div>
-                </dd>
-                <dd class="taxrateline">
-                    <span class="lineTitle">税费</span>
-                    <span>本商品适用税率为<b>11.9%</b> 
-                        <span class="skutaxdesc">
-                        <span class="maintext">税费收取规则</span>
-                    <span class="desc">
-                            税费=购买单价 * 件数 * 税率<br>
-                            据国家政策规定，本品适用于跨境综合税<br>
-                            注：不同商品的适用税率不同，<a href="javascript:void(0);">了解税率</a>
-                        </span>
-                    </span>
-                    </span>
-                </dd>
-                <dd class="nosku">
-                    <div>
-                        <span>
-                            <form>
-                                <span class="lineTitle">数量</span>
-                        <em class="buybox">
-                                    <span class="ctrnumWrap">
-                                        <a href="javascript:void(0);" class="dis"> </a>
-                                        <input type="text" class="qty" value="1">
-                                        <a href="javascript:void(0);" class="ad"> </a>
-                                    </span>
-                                        <span class="domeTips" id="js_dometxt">库存充足</span>
-                                </em>
-                        <em class="buyBtns">
-                                    <span>
-                                        <a class="buynowonly" href="javascript:void(0);">立即购买</a>
-                                        <a class="colBtn" href="javascript:void(0);" style="display: inline-block; visibility: visible;"><span class="txt">收藏</span></a>
-                                        <div class="buynowonlyWrap">
-                                            <span class="tip">提示：</span>
-                                            <ul><li>本商品不支持7天无理由退货</li></ul>
-                                        </div>
-                                    </span>
-                                </em>
-                        </form>
-                        </span>
-                    </div>
-                </dd>
-            </div>
-        </div>
-        <div class="proRelPurWrap" style="margin-bottom:80px;">
-            <h4 class="newRecomTitle">相关推荐<b>购买了该商品的人还买了这些</b></h4>
-            <div class="goodslst">
-                <div class="newRecomItemWrap">
-                    <a class="itemImg" href="javascript:void(0);">
-                        <img src="src/img/product/more/m1.jpg">
-                    </a>
-                    <p class="itemTitle"><a href="javascript:void(0);"><b>2件装</b>&nbsp;|&nbsp;Karicare 可瑞康 婴幼儿羊奶粉 3段 900克/罐 2罐装</a></p>
-                    <div class="itemInfo">
-                        <p class="price">¥405<span class="marprice">¥<del>579</del></span></p><a href="javascript:void(0);" class="comment">1850 人已评价</a></div>
-                </div>
-                <div class="newRecomItemWrap">
-                    <a class="itemImg" href="javascript:void(0);">
-                        <img src="src/img/product/more/m1.jpg">
-                    </a>
-                    <p class="itemTitle"><a href="javascript:void(0);"><b>2件装</b>&nbsp;|&nbsp;Karicare 可瑞康 婴幼儿羊奶粉 3段 900克/罐 2罐装</a></p>
-                    <div class="itemInfo">
-                        <p class="price">¥405<span class="marprice">¥<del>579</del></span></p><a href="javascript:void(0);" class="comment">1850 人已评价</a></div>
-                </div>
-                <div class="newRecomItemWrap">
-                    <a class="itemImg" href="javascript:void(0);">
-                        <img src="src/img/product/more/m1.jpg">
-                    </a>
-                    <p class="itemTitle"><a href="javascript:void(0);"><b>2件装</b>&nbsp;|&nbsp;Karicare 可瑞康 婴幼儿羊奶粉 3段 900克/罐 2罐装</a></p>
-                    <div class="itemInfo">
-                        <p class="price">¥405<span class="marprice">¥<del>579</del></span></p><a href="javascript:void(0);" class="comment">1850 人已评价</a></div>
-                </div>
-                <div class="newRecomItemWrap">
-                    <a class="itemImg" href="javascript:void(0);">
-                        <img src="src/img/product/more/m1.jpg">
-                    </a>
-                    <p class="itemTitle"><a href="javascript:void(0);"><b>2件装</b>&nbsp;|&nbsp;Karicare 可瑞康 婴幼儿羊奶粉 3段 900克/罐 2罐装</a></p>
-                    <div class="itemInfo">
-                        <p class="price">¥405<span class="marprice">¥<del>579</del></span></p><a href="javascript:void(0);" class="comment">1850 人已评价</a></div>
-                </div>
-                <div class="newRecomItemWrap">
-                    <a class="itemImg" href="javascript:void(0);">
-                        <img src="src/img/product/more/m1.jpg">
-                    </a>
-                    <p class="itemTitle"><a href="javascript:void(0);"><b>2件装</b>&nbsp;|&nbsp;Karicare 可瑞康 婴幼儿羊奶粉 3段 900克/罐 2罐装</a></p>
-                    <div class="itemInfo">
-                        <p class="price">¥405<span class="marprice">¥<del>579</del></span></p><a href="javascript:void(0);" class="comment">1850 人已评价</a></div>
-                </div>
-            </div>
-        </div>
-        <div class="mainBtmWrap" style="display:none">
-            <div class="siderBox">
-                <div class="sideGrayBox">
-                    <h4>看了又看</h4>
-                    <ul class="userBuyView">
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li class="bbNone">
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sideGrayBox">
-                    <h4>看了最终买</h4>
-                    <ul class="userBuyView">
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li class="bbNone">
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sideGrayBox">
-                    <h4>热销排行榜</h4>
-                    <ul class="userBuyView">
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                        <li class="bbNone">
-                            <a href="javascript:void(0);" class="aImg">
-                                <img src="src/img/product/more/m6.jpg">
-                            </a>
-                            <p class="productTit">
-                                <a class="aTit" href="javascript:void(0);">Karicare 可瑞康 婴幼儿羊奶粉 1段 900克</a>
-                            </p>
-                            <div>
-                                <p class="productPrice"><span>¥223</span><del>¥223</del></p>
-                                <p class="commentCount"><a href="javascript:void(0);">357 人已评价</a></p>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

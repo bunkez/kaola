@@ -3,6 +3,7 @@
     padding: 0px;
     border-top: none;
     margin: auto;
+    margin-bottom: 100px;
     position: relative;
     ol,
     ul {
@@ -27,6 +28,7 @@
                 top: 90px;
                 white-space: normal;
                 word-wrap: break-word;
+                line-height: 24px;
                 a {
                     color: #D12147;
                     text-decoration: none;
@@ -95,10 +97,15 @@
                     font-weight: bold;
                     color: #333;
                 }
+                .warename {
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: #666;
+                }
                 .goods {
                     border: 1px solid #eaeaea;
                     li {
-                        background-color: #FFFBF0;
+                        background-color: #FFFfFf;
                         border-bottom: 1px solid #eaeaea;
                         display: table;
                         height: 120px;
@@ -185,6 +192,7 @@
                             vertical-align: middle;
                             width: 132px;
                             padding: 0 10px;
+                            line-height: 21px;
                             .oldprice {
                                 color: #999;
                                 display: block;
@@ -239,7 +247,7 @@
                                 .ipt {
                                     float: left;
                                     width: 43px;
-                                    height: 20px;
+                                    height: 18px;
                                     line-height: 20px;
                                     text-align: center;
                                     border: #bcbcbc 1px solid;
@@ -359,7 +367,7 @@
                             .itm {
                                 margin-left: 20px;
                             }
-                            .m-total .gobuy {
+                            .gobuy {
                                 position: absolute;
                                 right: -1px;
                                 top: -1px;

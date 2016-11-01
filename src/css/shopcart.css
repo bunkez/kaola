@@ -3,6 +3,7 @@
   padding: 0px;
   border-top: none;
   margin: auto;
+  margin-bottom: 100px;
   position: relative;
 }
 .mainWrap ol,
@@ -28,6 +29,7 @@
   top: 90px;
   white-space: normal;
   word-wrap: break-word;
+  line-height: 24px;
 }
 .mainWrap .cartbox .nocart .wrap a {
   color: #D12147;
@@ -95,11 +97,16 @@
   font-weight: bold;
   color: #333;
 }
+.mainWrap .cartbox .cartBox .cart .warename {
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+}
 .mainWrap .cartbox .cartBox .cart .goods {
   border: 1px solid #eaeaea;
 }
 .mainWrap .cartbox .cartBox .cart .goods li {
-  background-color: #FFFBF0;
+  background-color: #FFFfFf;
   border-bottom: 1px solid #eaeaea;
   display: table;
   height: 120px;
@@ -187,6 +194,7 @@
   vertical-align: middle;
   width: 132px;
   padding: 0 10px;
+  line-height: 21px;
 }
 .mainWrap .cartbox .cartBox .cart .goods li .col3 .oldprice {
   color: #999;
@@ -243,7 +251,7 @@
 .mainWrap .cartbox .cartBox .cart .goods li .col4 .setcount .ipt {
   float: left;
   width: 43px;
-  height: 20px;
+  height: 18px;
   line-height: 20px;
   text-align: center;
   border: #bcbcbc 1px solid;
@@ -362,7 +370,7 @@
 .mainWrap .cartbox .cartBox .totalbox .total .ttbar .rt .itm {
   margin-left: 20px;
 }
-.mainWrap .cartbox .cartBox .totalbox .total .ttbar .rt .m-total .gobuy {
+.mainWrap .cartbox .cartBox .totalbox .total .ttbar .rt .gobuy {
   position: absolute;
   right: -1px;
   top: -1px;
